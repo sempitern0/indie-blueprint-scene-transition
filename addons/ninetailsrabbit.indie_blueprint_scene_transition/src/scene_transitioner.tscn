@@ -1,0 +1,8 @@
+[gd_scene load_steps=2 format=3 uid="uid://cx6pdxa5atxe8"]
+
+[ext_resource type="Script" path="res://addons/ninetailsrabbit.indie_blueprint_scene_transition/src/scene_transitioner.gd" id="1_tdru7"]
+
+[node name="IndieBlueprintSceneTransitioner" type="Node"]
+script = ExtResource("1_tdru7")
+
+[node name="CanvasLayer" type="CanvasLayer" parent="."]

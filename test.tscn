@@ -1,0 +1,9 @@
+[gd_scene load_steps=3 format=3 uid="uid://djebuuhn7de8p"]
+
+[ext_resource type="Script" path="res://test.gd" id="1_c4d8b"]
+[ext_resource type="PackedScene" uid="uid://vakfyhnrvor8" path="res://test2.tscn" id="2_8o4s1"]
+
+[node name="TestScene" type="Node2D"]
+script = ExtResource("1_c4d8b")
+test_transition_scene = ExtResource("2_8o4s1")
+test_transition_path = "res://test2.tscn"

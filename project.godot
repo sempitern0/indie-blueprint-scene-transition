@@ -10,7 +10,7 @@ config_version=5
 
 [application]
 
-config/name="Indie Blueprint Scene Transitioner"
+config/name="Indie Blueprint Scene Transition"
 config/description="This scene transitioner implifies scene switching in your Godot project, adding polish and visual flair to your game's level changes."
 config/version="1.0.0"
 config/features=PackedStringArray("4.3", "GL Compatibility")

@@ -1,0 +1,11 @@
+[gd_scene format=3 uid="uid://na0q71mg7mae"]
+
+[node name="TestScene2" type="Node2D"]
+
+[node name="Label" type="Label" parent="."]
+offset_left = 257.0
+offset_top = 225.0
+offset_right = 382.0
+offset_bottom = 270.0
+theme_override_font_sizes/font_size = 32
+text = "SCENE 2"

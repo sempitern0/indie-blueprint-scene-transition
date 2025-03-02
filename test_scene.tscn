@@ -1,0 +1,14 @@
+[gd_scene load_steps=2 format=3 uid="uid://5lxk81vjb77o"]
+
+[ext_resource type="Script" path="res://test_scene.gd" id="1_2sj26"]
+
+[node name="TestScene" type="Node2D"]
+script = ExtResource("1_2sj26")
+
+[node name="Label" type="Label" parent="."]
+offset_left = 257.0
+offset_top = 225.0
+offset_right = 382.0
+offset_bottom = 270.0
+theme_override_font_sizes/font_size = 32
+text = "SCENE 1"

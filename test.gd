@@ -7,10 +7,4 @@ extends Node2D
 func _ready() -> void:
 	IndieBlueprintSceneTransitioner.transition_to(
 		test_transition_scene,
-		IndieBlueprintPremadeTransitions.ColorFade,
-		IndieBlueprintPremadeTransitions.ColorFade,
-		{
-			"in": {"duration": 2.5, "color": Color.DEEP_PINK}, 
-			"out": {"duration": 1.0, "color": Color.GREEN}
-		}
 	)

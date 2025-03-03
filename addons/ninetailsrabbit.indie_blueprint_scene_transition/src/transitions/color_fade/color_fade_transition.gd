@@ -14,6 +14,9 @@ func _ready() -> void:
 
 
 func transition_in(args: Dictionary = {}) -> void:
+	in_transition_started.emit()
+	
+	prepare_color_rect(color_rect)
 	color_rect.color = args.get_or_add("color", default_color)
 	color_rect.modulate.a8 = in_start_modulate
 	
@@ -25,8 +28,9 @@ func transition_in(args: Dictionary = {}) -> void:
 
 
 func transition_out(args: Dictionary = {}) -> void:
-	prepare_color_rect(color_rect)
+	out_transition_started.emit()
 	
+	prepare_color_rect(color_rect)
 	color_rect.color = args.get_or_add("color", default_color)
 	color_rect.modulate.a8 = out_start_modulate
 	

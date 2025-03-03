@@ -64,7 +64,7 @@ func transition_to(
 	args: Dictionary = {} 
 ) -> void:
 	## A current transition is happening
-	if is_processing():
+	if is_processing() or not next_scene_path.is_empty():
 		return
 	
 	next_scene_path = scene.resource_path if scene is PackedScene else scene
@@ -166,8 +166,8 @@ func transition_to_with_loading_screen(
 		
 
 func _change_to_loaded_scene(next_scene: String = next_scene_path) -> void:
+	load_finished.emit(next_scene)
 	get_tree().call_deferred("change_scene_to_packed", ResourceLoader.load_threaded_get(next_scene))
-
 
 func _get_load_status(progress: Array = []) -> ResourceLoader.ThreadLoadStatus:
 	return ResourceLoader.load_threaded_get_status(next_scene_path, progress)
@@ -178,7 +178,7 @@ func get_transition_by_id(id: StringName) -> IndieBlueprintSceneTransitionConfig
 		return null
 		
 	var found_transitions: Array[IndieBlueprintSceneTransitionConfiguration] = transitions.filter(
-			func(transition: IndieBlueprintSceneTransitionConfiguration): return id == transition.id
+			func(transition: IndieBlueprintSceneTransitionConfiguration): return transition and id == transition.id
 		)
 	
 	if found_transitions.is_empty():
@@ -207,9 +207,8 @@ func on_in_transition_finished(in_transition_id: StringName, out_transition_id: 
 		load_finished.emit(next_scene_path)
 	
 	set_process.call_deferred(true)
-	is_loaded = _get_load_status(current_progress) == ResourceLoader.THREAD_LOAD_LOADED
 
-	if not is_loaded:
+	if _get_load_status(current_progress) == ResourceLoader.THREAD_LOAD_LOADED:
 		is_loaded = true
 		_change_to_loaded_scene(next_scene_path)
 	

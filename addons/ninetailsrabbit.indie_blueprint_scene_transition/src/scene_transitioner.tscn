@@ -8,6 +8,6 @@
 
 [node name="IndieBlueprintSceneTransitioner" type="Node"]
 script = ExtResource("1_tdru7")
-transitions = Array[ExtResource("2_r3y02")]([ExtResource("3_jq7gd"), ExtResource("4_1g777"), ExtResource("5_6265j")])
+transitions = Array[ExtResource("2_r3y02")]([ExtResource("3_jq7gd"), ExtResource("4_1g777"), ExtResource("5_6265j"), null])
 
 [node name="CanvasLayer" type="CanvasLayer" parent="."]

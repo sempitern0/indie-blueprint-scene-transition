@@ -23,6 +23,25 @@
     - [Fade](#fade)
     - [Voronoi](#voronoi)
     - [Dissolve](#dissolve)
+      - [Blurry noise](#blurry-noise)
+      - [Cell noise](#cell-noise)
+      - [Circle inverted](#circle-inverted)
+      - [Circle](#circle)
+      - [Conical](#conical)
+      - [Curtains](#curtains)
+      - [Horizontal paint brush](#horizontal-paint-brush)
+      - [Vertical paint brush](#vertical-paint-brush)
+      - [Noise pixelated](#noise-pixelated)
+      - [Normal Noise](#normal-noise)
+      - [Scribbles](#scribbles)
+      - [Square](#square)
+      - [Squares](#squares)
+      - [Swirl](#swirl)
+      - [Tile reveal](#tile-reveal)
+      - [Wipe down](#wipe-down)
+      - [Wipe up](#wipe-up)
+      - [Wipe left](#wipe-left)
+      - [Wipe right](#wipe-right)
   - [Transition to scene 📽️](#transition-to-scene-️)
   - [Transition to scene with loading screen 🎬](#transition-to-scene-with-loading-screen-)
     - [Create your loading screen](#create-your-loading-screen)
@@ -113,6 +132,10 @@ const WipeUp: CompressedTexture2D = preload("res://addons/ninetailsrabbit.indie_
 
 ### Fade
 
+![fade_transition](images/transitions/fade_transition.gif)
+
+---
+
 ```swift
 // Arguments that can receive in the dictionary
 var color: Color
@@ -131,6 +154,10 @@ var duration: float
 ```
 
 ### Voronoi
+
+![voronoi_transition](images/transitions/voronoi_transition.gif)
+
+---
 
 ```swift
 // Arguments that can receive in the dictionary
@@ -177,6 +204,82 @@ var texture: CompressedTexture2D
 	},
 }
 ```
+
+#### Blurry noise
+
+![blurry_noise](images/transitions/blurry_noise.gif)
+
+#### Cell noise
+
+![cell_noise](images/transitions/cell_noise.gif)
+
+#### Circle inverted
+
+![circle_inverted](images/transitions/circle_inverted.gif)
+
+#### Circle
+
+![circle](images/transitions/circle.gif)
+
+#### Conical
+
+![conical](images/transitions/conical.gif)
+
+#### Curtains
+
+![curtains](images/transitions/curtains.gif)
+
+#### Horizontal paint brush
+
+![horizontal_paint_brush](images/transitions/horizontal_paint_brush.gif)
+
+#### Vertical paint brush
+
+![vertical_paint_brush](images/transitions/vertical_paint_brush.gif)
+
+#### Noise pixelated
+
+![noise_pixelated](images/transitions/noise_pixelated.gif)
+
+#### Normal Noise
+
+![normal_noise](images/transitions/normal_noise.gif)
+
+#### Scribbles
+
+![scribbles](images/transitions/scribbles.gif)
+
+#### Square
+
+![square](images/transitions/square.gif)
+
+#### Squares
+
+![squares](images/transitions/squares.gif)
+
+#### Swirl
+
+![swirl](images/transitions/swirl.gif)
+
+#### Tile reveal
+
+![tile_reveal](images/transitions/tile_reveal.gif)
+
+#### Wipe down
+
+![wipe_down](images/transitions/wipe_down.gif)
+
+#### Wipe up
+
+![wipe_up](images/transitions/wipe_up.gif)
+
+#### Wipe left
+
+![wipe_left](images/transitions/wipe_left.gif)
+
+#### Wipe right
+
+![wipe_right](images/transitions/wipe_right.gif)
 
 ## Transition to scene 📽️
 

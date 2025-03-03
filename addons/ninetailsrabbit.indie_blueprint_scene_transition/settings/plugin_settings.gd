@@ -1,5 +1,5 @@
 @tool
-class_name MyPluginSettings extends RefCounted
+class_name IndieBlueprintSceneTransitionSettings extends RefCounted
 
 const PluginPrefixName: String = "ninetailsrabbit.indie_blueprint_scene_transitioner" ## The folder name
 const GitRepositoryName: String = "indie-blueprint-scene-transitioner"

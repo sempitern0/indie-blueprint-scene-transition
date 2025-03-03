@@ -1,0 +1,2637 @@
+[gd_scene load_steps=2 format=3 uid="uid://dxerk6a2fvagj"]
+
+[ext_resource type="Texture2D" uid="uid://0cs6huaccbjf" path="res://icon.svg" id="1_7r1rm"]
+
+[node name="TestScene2" type="Node2D"]
+
+[node name="TextureRect" type="TextureRect" parent="."]
+offset_right = 40.0
+offset_bottom = 40.0
+texture = ExtResource("1_7r1rm")
+
+[node name="TextureRect2" type="TextureRect" parent="."]
+offset_left = 244.0
+offset_top = -2.0
+offset_right = 372.0
+offset_bottom = 126.0
+texture = ExtResource("1_7r1rm")
+
+[node name="TextureRect3" type="TextureRect" parent="."]
+offset_left = 219.0
+offset_top = 217.0
+offset_right = 347.0
+offset_bottom = 345.0
+texture = ExtResource("1_7r1rm")
+
+[node name="TextureRect4" type="TextureRect" parent="."]
+offset_left = 683.0
+offset_top = 61.0
+offset_right = 811.0
+offset_bottom = 189.0
+texture = ExtResource("1_7r1rm")
+
+[node name="TextureRect5" type="TextureRect" parent="."]
+offset_left = 926.0
+offset_top = 337.0
+offset_right = 1054.0
+offset_bottom = 465.0
+texture = ExtResource("1_7r1rm")
+
+[node name="TextureRect6" type="TextureRect" parent="."]
+offset_left = 926.0
+offset_top = 337.0
+offset_right = 1054.0
+offset_bottom = 465.0
+texture = ExtResource("1_7r1rm")
+
+[node name="TextureRect7" type="TextureRect" parent="."]
+offset_left = 556.0
+offset_top = 432.0
+offset_right = 684.0
+offset_bottom = 560.0
+texture = ExtResource("1_7r1rm")
+
+[node name="TextureRect11" type="TextureRect" parent="."]
+offset_left = 519.0
+offset_top = 235.0
+offset_right = 647.0
+offset_bottom = 363.0
+texture = ExtResource("1_7r1rm")
+
+[node name="TextureRect8" type="TextureRect" parent="."]
+offset_left = 904.0
+offset_top = 99.0
+offset_right = 1032.0
+offset_bottom = 227.0
+texture = ExtResource("1_7r1rm")
+
+[node name="TextureRect9" type="TextureRect" parent="."]
+offset_left = 259.0
+offset_top = 438.0
+offset_right = 387.0
+offset_bottom = 566.0
+texture = ExtResource("1_7r1rm")
+
+[node name="TextureRect10" type="TextureRect" parent="."]
+offset_left = 556.0
+offset_top = 432.0
+offset_right = 684.0
+offset_bottom = 560.0
+texture = ExtResource("1_7r1rm")
+
+[node name="TextureRect12" type="TextureRect" parent="."]
+offset_right = 40.0
+offset_bottom = 40.0
+texture = ExtResource("1_7r1rm")
+
+[node name="TextureRect13" type="TextureRect" parent="."]
+offset_left = 244.0
+offset_top = -2.0
+offset_right = 372.0
+offset_bottom = 126.0
+texture = ExtResource("1_7r1rm")
+
+[node name="TextureRect14" type="TextureRect" parent="."]
+offset_left = 219.0
+offset_top = 217.0
+offset_right = 347.0
+offset_bottom = 345.0
+texture = ExtResource("1_7r1rm")
+
+[node name="TextureRect15" type="TextureRect" parent="."]
+offset_left = 683.0
+offset_top = 61.0
+offset_right = 811.0
+offset_bottom = 189.0
+texture = ExtResource("1_7r1rm")
+
+[node name="TextureRect16" type="TextureRect" parent="."]
+offset_left = 926.0
+offset_top = 337.0
+offset_right = 1054.0
+offset_bottom = 465.0
+texture = ExtResource("1_7r1rm")
+
+[node name="TextureRect17" type="TextureRect" parent="."]
+offset_left = 926.0
+offset_top = 337.0
+offset_right = 1054.0
+offset_bottom = 465.0
+texture = ExtResource("1_7r1rm")
+
+[node name="TextureRect18" type="TextureRect" parent="."]
+offset_left = 556.0
+offset_top = 432.0
+offset_right = 684.0
+offset_bottom = 560.0
+texture = ExtResource("1_7r1rm")
+
+[node name="TextureRect19" type="TextureRect" parent="."]
+offset_left = 519.0
+offset_top = 235.0
+offset_right = 647.0
+offset_bottom = 363.0
+texture = ExtResource("1_7r1rm")
+
+[node name="TextureRect20" type="TextureRect" parent="."]
+offset_left = 904.0
+offset_top = 99.0
+offset_right = 1032.0
+offset_bottom = 227.0
+texture = ExtResource("1_7r1rm")
+
+[node name="TextureRect21" type="TextureRect" parent="."]
+offset_left = 259.0
+offset_top = 438.0
+offset_right = 387.0
+offset_bottom = 566.0
+texture = ExtResource("1_7r1rm")
+
+[node name="TextureRect22" type="TextureRect" parent="."]
+offset_left = 556.0
+offset_top = 432.0
+offset_right = 684.0
+offset_bottom = 560.0
+texture = ExtResource("1_7r1rm")
+
+[node name="TextureRect23" type="TextureRect" parent="."]
+offset_right = 40.0
+offset_bottom = 40.0
+texture = ExtResource("1_7r1rm")
+
+[node name="TextureRect24" type="TextureRect" parent="."]
+offset_left = 244.0
+offset_top = -2.0
+offset_right = 372.0
+offset_bottom = 126.0
+texture = ExtResource("1_7r1rm")
+
+[node name="TextureRect25" type="TextureRect" parent="."]
+offset_left = 219.0
+offset_top = 217.0
+offset_right = 347.0
+offset_bottom = 345.0
+texture = ExtResource("1_7r1rm")
+
+[node name="TextureRect26" type="TextureRect" parent="."]
+offset_left = 683.0
+offset_top = 61.0
+offset_right = 811.0
+offset_bottom = 189.0
+texture = ExtResource("1_7r1rm")
+
+[node name="TextureRect27" type="TextureRect" parent="."]
+offset_left = 926.0
+offset_top = 337.0
+offset_right = 1054.0
+offset_bottom = 465.0
+texture = ExtResource("1_7r1rm")
+
+[node name="TextureRect28" type="TextureRect" parent="."]
+offset_left = 926.0
+offset_top = 337.0
+offset_right = 1054.0
+offset_bottom = 465.0
+texture = ExtResource("1_7r1rm")
+
+[node name="TextureRect29" type="TextureRect" parent="."]
+offset_left = 556.0
+offset_top = 432.0
+offset_right = 684.0
+offset_bottom = 560.0
+texture = ExtResource("1_7r1rm")
+
+[node name="TextureRect30" type="TextureRect" parent="."]
+offset_left = 519.0
+offset_top = 235.0
+offset_right = 647.0
+offset_bottom = 363.0
+texture = ExtResource("1_7r1rm")
+
+[node name="TextureRect31" type="TextureRect" parent="."]
+offset_left = 904.0
+offset_top = 99.0
+offset_right = 1032.0
+offset_bottom = 227.0
+texture = ExtResource("1_7r1rm")
+
+[node name="TextureRect32" type="TextureRect" parent="."]
+offset_left = 259.0
+offset_top = 438.0
+offset_right = 387.0
+offset_bottom = 566.0
+texture = ExtResource("1_7r1rm")
+
+[node name="TextureRect33" type="TextureRect" parent="."]
+offset_left = 556.0
+offset_top = 432.0
+offset_right = 684.0
+offset_bottom = 560.0
+texture = ExtResource("1_7r1rm")
+
+[node name="TextureRect34" type="TextureRect" parent="."]
+offset_right = 40.0
+offset_bottom = 40.0
+texture = ExtResource("1_7r1rm")
+
+[node name="TextureRect35" type="TextureRect" parent="."]
+offset_left = 244.0
+offset_top = -2.0
+offset_right = 372.0
+offset_bottom = 126.0
+texture = ExtResource("1_7r1rm")
+
+[node name="TextureRect36" type="TextureRect" parent="."]
+offset_left = 219.0
+offset_top = 217.0
+offset_right = 347.0
+offset_bottom = 345.0
+texture = ExtResource("1_7r1rm")
+
+[node name="TextureRect37" type="TextureRect" parent="."]
+offset_left = 683.0
+offset_top = 61.0
+offset_right = 811.0
+offset_bottom = 189.0
+texture = ExtResource("1_7r1rm")
+
+[node name="TextureRect38" type="TextureRect" parent="."]
+offset_left = 926.0
+offset_top = 337.0
+offset_right = 1054.0
+offset_bottom = 465.0
+texture = ExtResource("1_7r1rm")
+
+[node name="TextureRect39" type="TextureRect" parent="."]
+offset_left = 926.0
+offset_top = 337.0
+offset_right = 1054.0
+offset_bottom = 465.0
+texture = ExtResource("1_7r1rm")
+
+[node name="TextureRect40" type="TextureRect" parent="."]
+offset_left = 556.0
+offset_top = 432.0
+offset_right = 684.0
+offset_bottom = 560.0
+texture = ExtResource("1_7r1rm")
+
+[node name="TextureRect41" type="TextureRect" parent="."]
+offset_left = 519.0
+offset_top = 235.0
+offset_right = 647.0
+offset_bottom = 363.0
+texture = ExtResource("1_7r1rm")
+
+[node name="TextureRect42" type="TextureRect" parent="."]
+offset_left = 904.0
+offset_top = 99.0
+offset_right = 1032.0
+offset_bottom = 227.0
+texture = ExtResource("1_7r1rm")
+
+[node name="TextureRect43" type="TextureRect" parent="."]
+offset_left = 259.0
+offset_top = 438.0
+offset_right = 387.0
+offset_bottom = 566.0
+texture = ExtResource("1_7r1rm")
+
+[node name="TextureRect44" type="TextureRect" parent="."]
+offset_left = 556.0
+offset_top = 432.0
+offset_right = 684.0
+offset_bottom = 560.0
+texture = ExtResource("1_7r1rm")
+
+[node name="TextureRect45" type="TextureRect" parent="."]
+offset_right = 40.0
+offset_bottom = 40.0
+texture = ExtResource("1_7r1rm")
+
+[node name="TextureRect46" type="TextureRect" parent="."]
+offset_left = 244.0
+offset_top = -2.0
+offset_right = 372.0
+offset_bottom = 126.0
+texture = ExtResource("1_7r1rm")
+
+[node name="TextureRect47" type="TextureRect" parent="."]
+offset_left = 219.0
+offset_top = 217.0
+offset_right = 347.0
+offset_bottom = 345.0
+texture = ExtResource("1_7r1rm")
+
+[node name="TextureRect48" type="TextureRect" parent="."]
+offset_left = 683.0
+offset_top = 61.0
+offset_right = 811.0
+offset_bottom = 189.0
+texture = ExtResource("1_7r1rm")
+
+[node name="TextureRect49" type="TextureRect" parent="."]
+offset_left = 926.0
+offset_top = 337.0
+offset_right = 1054.0
+offset_bottom = 465.0
+texture = ExtResource("1_7r1rm")
+
+[node name="TextureRect50" type="TextureRect" parent="."]
+offset_left = 926.0
+offset_top = 337.0
+offset_right = 1054.0
+offset_bottom = 465.0
+texture = ExtResource("1_7r1rm")
+
+[node name="TextureRect51" type="TextureRect" parent="."]
+offset_left = 556.0
+offset_top = 432.0
+offset_right = 684.0
+offset_bottom = 560.0
+texture = ExtResource("1_7r1rm")
+
+[node name="TextureRect52" type="TextureRect" parent="."]
+offset_left = 519.0
+offset_top = 235.0
+offset_right = 647.0
+offset_bottom = 363.0
+texture = ExtResource("1_7r1rm")
+
+[node name="TextureRect53" type="TextureRect" parent="."]
+offset_left = 904.0
+offset_top = 99.0
+offset_right = 1032.0
+offset_bottom = 227.0
+texture = ExtResource("1_7r1rm")
+
+[node name="TextureRect54" type="TextureRect" parent="."]
+offset_left = 259.0
+offset_top = 438.0
+offset_right = 387.0
+offset_bottom = 566.0
+texture = ExtResource("1_7r1rm")
+
+[node name="TextureRect55" type="TextureRect" parent="."]
+offset_left = 556.0
+offset_top = 432.0
+offset_right = 684.0
+offset_bottom = 560.0
+texture = ExtResource("1_7r1rm")
+
+[node name="TextureRect56" type="TextureRect" parent="."]
+offset_right = 40.0
+offset_bottom = 40.0
+texture = ExtResource("1_7r1rm")
+
+[node name="TextureRect57" type="TextureRect" parent="."]
+offset_left = 244.0
+offset_top = -2.0
+offset_right = 372.0
+offset_bottom = 126.0
+texture = ExtResource("1_7r1rm")
+
+[node name="TextureRect58" type="TextureRect" parent="."]
+offset_left = 219.0
+offset_top = 217.0
+offset_right = 347.0
+offset_bottom = 345.0
+texture = ExtResource("1_7r1rm")
+
+[node name="TextureRect59" type="TextureRect" parent="."]
+offset_left = 683.0
+offset_top = 61.0
+offset_right = 811.0
+offset_bottom = 189.0
+texture = ExtResource("1_7r1rm")
+
+[node name="TextureRect60" type="TextureRect" parent="."]
+offset_left = 926.0
+offset_top = 337.0
+offset_right = 1054.0
+offset_bottom = 465.0
+texture = ExtResource("1_7r1rm")
+
+[node name="TextureRect61" type="TextureRect" parent="."]
+offset_left = 926.0
+offset_top = 337.0
+offset_right = 1054.0
+offset_bottom = 465.0
+texture = ExtResource("1_7r1rm")
+
+[node name="TextureRect62" type="TextureRect" parent="."]
+offset_left = 556.0
+offset_top = 432.0
+offset_right = 684.0
+offset_bottom = 560.0
+texture = ExtResource("1_7r1rm")
+
+[node name="TextureRect63" type="TextureRect" parent="."]
+offset_left = 519.0
+offset_top = 235.0
+offset_right = 647.0
+offset_bottom = 363.0
+texture = ExtResource("1_7r1rm")
+
+[node name="TextureRect64" type="TextureRect" parent="."]
+offset_left = 904.0
+offset_top = 99.0
+offset_right = 1032.0
+offset_bottom = 227.0
+texture = ExtResource("1_7r1rm")
+
+[node name="TextureRect65" type="TextureRect" parent="."]
+offset_left = 259.0
+offset_top = 438.0
+offset_right = 387.0
+offset_bottom = 566.0
+texture = ExtResource("1_7r1rm")
+
+[node name="TextureRect66" type="TextureRect" parent="."]
+offset_left = 556.0
+offset_top = 432.0
+offset_right = 684.0
+offset_bottom = 560.0
+texture = ExtResource("1_7r1rm")
+
+[node name="TextureRect67" type="TextureRect" parent="."]
+offset_right = 40.0
+offset_bottom = 40.0
+texture = ExtResource("1_7r1rm")
+
+[node name="TextureRect68" type="TextureRect" parent="."]
+offset_left = 244.0
+offset_top = -2.0
+offset_right = 372.0
+offset_bottom = 126.0
+texture = ExtResource("1_7r1rm")
+
+[node name="TextureRect69" type="TextureRect" parent="."]
+offset_left = 219.0
+offset_top = 217.0
+offset_right = 347.0
+offset_bottom = 345.0
+texture = ExtResource("1_7r1rm")
+
+[node name="TextureRect70" type="TextureRect" parent="."]
+offset_left = 683.0
+offset_top = 61.0
+offset_right = 811.0
+offset_bottom = 189.0
+texture = ExtResource("1_7r1rm")
+
+[node name="TextureRect71" type="TextureRect" parent="."]
+offset_left = 926.0
+offset_top = 337.0
+offset_right = 1054.0
+offset_bottom = 465.0
+texture = ExtResource("1_7r1rm")
+
+[node name="TextureRect72" type="TextureRect" parent="."]
+offset_left = 926.0
+offset_top = 337.0
+offset_right = 1054.0
+offset_bottom = 465.0
+texture = ExtResource("1_7r1rm")
+
+[node name="TextureRect73" type="TextureRect" parent="."]
+offset_left = 556.0
+offset_top = 432.0
+offset_right = 684.0
+offset_bottom = 560.0
+texture = ExtResource("1_7r1rm")
+
+[node name="TextureRect74" type="TextureRect" parent="."]
+offset_left = 519.0
+offset_top = 235.0
+offset_right = 647.0
+offset_bottom = 363.0
+texture = ExtResource("1_7r1rm")
+
+[node name="TextureRect75" type="TextureRect" parent="."]
+offset_left = 904.0
+offset_top = 99.0
+offset_right = 1032.0
+offset_bottom = 227.0
+texture = ExtResource("1_7r1rm")
+
+[node name="TextureRect76" type="TextureRect" parent="."]
+offset_left = 259.0
+offset_top = 438.0
+offset_right = 387.0
+offset_bottom = 566.0
+texture = ExtResource("1_7r1rm")
+
+[node name="TextureRect77" type="TextureRect" parent="."]
+offset_left = 556.0
+offset_top = 432.0
+offset_right = 684.0
+offset_bottom = 560.0
+texture = ExtResource("1_7r1rm")
+
+[node name="TextureRect78" type="TextureRect" parent="."]
+offset_right = 40.0
+offset_bottom = 40.0
+texture = ExtResource("1_7r1rm")
+
+[node name="TextureRect79" type="TextureRect" parent="."]
+offset_left = 244.0
+offset_top = -2.0
+offset_right = 372.0
+offset_bottom = 126.0
+texture = ExtResource("1_7r1rm")
+
+[node name="TextureRect80" type="TextureRect" parent="."]
+offset_left = 219.0
+offset_top = 217.0
+offset_right = 347.0
+offset_bottom = 345.0
+texture = ExtResource("1_7r1rm")
+
+[node name="TextureRect81" type="TextureRect" parent="."]
+offset_left = 683.0
+offset_top = 61.0
+offset_right = 811.0
+offset_bottom = 189.0
+texture = ExtResource("1_7r1rm")
+
+[node name="TextureRect82" type="TextureRect" parent="."]
+offset_left = 926.0
+offset_top = 337.0
+offset_right = 1054.0
+offset_bottom = 465.0
+texture = ExtResource("1_7r1rm")
+
+[node name="TextureRect83" type="TextureRect" parent="."]
+offset_left = 926.0
+offset_top = 337.0
+offset_right = 1054.0
+offset_bottom = 465.0
+texture = ExtResource("1_7r1rm")
+
+[node name="TextureRect84" type="TextureRect" parent="."]
+offset_left = 556.0
+offset_top = 432.0
+offset_right = 684.0
+offset_bottom = 560.0
+texture = ExtResource("1_7r1rm")
+
+[node name="TextureRect85" type="TextureRect" parent="."]
+offset_left = 519.0
+offset_top = 235.0
+offset_right = 647.0
+offset_bottom = 363.0
+texture = ExtResource("1_7r1rm")
+
+[node name="TextureRect86" type="TextureRect" parent="."]
+offset_left = 904.0
+offset_top = 99.0
+offset_right = 1032.0
+offset_bottom = 227.0
+texture = ExtResource("1_7r1rm")
+
+[node name="TextureRect87" type="TextureRect" parent="."]
+offset_left = 259.0
+offset_top = 438.0
+offset_right = 387.0
+offset_bottom = 566.0
+texture = ExtResource("1_7r1rm")
+
+[node name="TextureRect88" type="TextureRect" parent="."]
+offset_left = 556.0
+offset_top = 432.0
+offset_right = 684.0
+offset_bottom = 560.0
+texture = ExtResource("1_7r1rm")
+
+[node name="TextureRect89" type="TextureRect" parent="."]
+offset_right = 40.0
+offset_bottom = 40.0
+texture = ExtResource("1_7r1rm")
+
+[node name="TextureRect90" type="TextureRect" parent="."]
+offset_left = 244.0
+offset_top = -2.0
+offset_right = 372.0
+offset_bottom = 126.0
+texture = ExtResource("1_7r1rm")
+
+[node name="TextureRect91" type="TextureRect" parent="."]
+offset_left = 219.0
+offset_top = 217.0
+offset_right = 347.0
+offset_bottom = 345.0
+texture = ExtResource("1_7r1rm")
+
+[node name="TextureRect92" type="TextureRect" parent="."]
+offset_left = 683.0
+offset_top = 61.0
+offset_right = 811.0
+offset_bottom = 189.0
+texture = ExtResource("1_7r1rm")
+
+[node name="TextureRect93" type="TextureRect" parent="."]
+offset_left = 926.0
+offset_top = 337.0
+offset_right = 1054.0
+offset_bottom = 465.0
+texture = ExtResource("1_7r1rm")
+
+[node name="TextureRect94" type="TextureRect" parent="."]
+offset_left = 926.0
+offset_top = 337.0
+offset_right = 1054.0
+offset_bottom = 465.0
+texture = ExtResource("1_7r1rm")
+
+[node name="TextureRect95" type="TextureRect" parent="."]
+offset_left = 556.0
+offset_top = 432.0
+offset_right = 684.0
+offset_bottom = 560.0
+texture = ExtResource("1_7r1rm")
+
+[node name="TextureRect96" type="TextureRect" parent="."]
+offset_left = 519.0
+offset_top = 235.0
+offset_right = 647.0
+offset_bottom = 363.0
+texture = ExtResource("1_7r1rm")
+
+[node name="TextureRect97" type="TextureRect" parent="."]
+offset_left = 904.0
+offset_top = 99.0
+offset_right = 1032.0
+offset_bottom = 227.0
+texture = ExtResource("1_7r1rm")
+
+[node name="TextureRect98" type="TextureRect" parent="."]
+offset_left = 259.0
+offset_top = 438.0
+offset_right = 387.0
+offset_bottom = 566.0
+texture = ExtResource("1_7r1rm")
+
+[node name="TextureRect99" type="TextureRect" parent="."]
+offset_left = 556.0
+offset_top = 432.0
+offset_right = 684.0
+offset_bottom = 560.0
+texture = ExtResource("1_7r1rm")
+
+[node name="TextureRect100" type="TextureRect" parent="."]
+offset_right = 40.0
+offset_bottom = 40.0
+texture = ExtResource("1_7r1rm")
+
+[node name="TextureRect101" type="TextureRect" parent="."]
+offset_left = 244.0
+offset_top = -2.0
+offset_right = 372.0
+offset_bottom = 126.0
+texture = ExtResource("1_7r1rm")
+
+[node name="TextureRect102" type="TextureRect" parent="."]
+offset_left = 219.0
+offset_top = 217.0
+offset_right = 347.0
+offset_bottom = 345.0
+texture = ExtResource("1_7r1rm")
+
+[node name="TextureRect103" type="TextureRect" parent="."]
+offset_left = 683.0
+offset_top = 61.0
+offset_right = 811.0
+offset_bottom = 189.0
+texture = ExtResource("1_7r1rm")
+
+[node name="TextureRect104" type="TextureRect" parent="."]
+offset_left = 926.0
+offset_top = 337.0
+offset_right = 1054.0
+offset_bottom = 465.0
+texture = ExtResource("1_7r1rm")
+
+[node name="TextureRect105" type="TextureRect" parent="."]
+offset_left = 926.0
+offset_top = 337.0
+offset_right = 1054.0
+offset_bottom = 465.0
+texture = ExtResource("1_7r1rm")
+
+[node name="TextureRect106" type="TextureRect" parent="."]
+offset_left = 556.0
+offset_top = 432.0
+offset_right = 684.0
+offset_bottom = 560.0
+texture = ExtResource("1_7r1rm")
+
+[node name="TextureRect107" type="TextureRect" parent="."]
+offset_left = 519.0
+offset_top = 235.0
+offset_right = 647.0
+offset_bottom = 363.0
+texture = ExtResource("1_7r1rm")
+
+[node name="TextureRect108" type="TextureRect" parent="."]
+offset_left = 904.0
+offset_top = 99.0
+offset_right = 1032.0
+offset_bottom = 227.0
+texture = ExtResource("1_7r1rm")
+
+[node name="TextureRect109" type="TextureRect" parent="."]
+offset_left = 259.0
+offset_top = 438.0
+offset_right = 387.0
+offset_bottom = 566.0
+texture = ExtResource("1_7r1rm")
+
+[node name="TextureRect110" type="TextureRect" parent="."]
+offset_left = 556.0
+offset_top = 432.0
+offset_right = 684.0
+offset_bottom = 560.0
+texture = ExtResource("1_7r1rm")
+
+[node name="TextureRect111" type="TextureRect" parent="."]
+offset_right = 40.0
+offset_bottom = 40.0
+texture = ExtResource("1_7r1rm")
+
+[node name="TextureRect112" type="TextureRect" parent="."]
+offset_left = 244.0
+offset_top = -2.0
+offset_right = 372.0
+offset_bottom = 126.0
+texture = ExtResource("1_7r1rm")
+
+[node name="TextureRect113" type="TextureRect" parent="."]
+offset_left = 219.0
+offset_top = 217.0
+offset_right = 347.0
+offset_bottom = 345.0
+texture = ExtResource("1_7r1rm")
+
+[node name="TextureRect114" type="TextureRect" parent="."]
+offset_left = 683.0
+offset_top = 61.0
+offset_right = 811.0
+offset_bottom = 189.0
+texture = ExtResource("1_7r1rm")
+
+[node name="TextureRect115" type="TextureRect" parent="."]
+offset_left = 926.0
+offset_top = 337.0
+offset_right = 1054.0
+offset_bottom = 465.0
+texture = ExtResource("1_7r1rm")
+
+[node name="TextureRect116" type="TextureRect" parent="."]
+offset_left = 926.0
+offset_top = 337.0
+offset_right = 1054.0
+offset_bottom = 465.0
+texture = ExtResource("1_7r1rm")
+
+[node name="TextureRect117" type="TextureRect" parent="."]
+offset_left = 556.0
+offset_top = 432.0
+offset_right = 684.0
+offset_bottom = 560.0
+texture = ExtResource("1_7r1rm")
+
+[node name="TextureRect118" type="TextureRect" parent="."]
+offset_left = 519.0
+offset_top = 235.0
+offset_right = 647.0
+offset_bottom = 363.0
+texture = ExtResource("1_7r1rm")
+
+[node name="TextureRect119" type="TextureRect" parent="."]
+offset_left = 904.0
+offset_top = 99.0
+offset_right = 1032.0
+offset_bottom = 227.0
+texture = ExtResource("1_7r1rm")
+
+[node name="TextureRect120" type="TextureRect" parent="."]
+offset_left = 259.0
+offset_top = 438.0
+offset_right = 387.0
+offset_bottom = 566.0
+texture = ExtResource("1_7r1rm")
+
+[node name="TextureRect121" type="TextureRect" parent="."]
+offset_left = 556.0
+offset_top = 432.0
+offset_right = 684.0
+offset_bottom = 560.0
+texture = ExtResource("1_7r1rm")
+
+[node name="TextureRect122" type="TextureRect" parent="."]
+offset_right = 40.0
+offset_bottom = 40.0
+texture = ExtResource("1_7r1rm")
+
+[node name="TextureRect123" type="TextureRect" parent="."]
+offset_left = 244.0
+offset_top = -2.0
+offset_right = 372.0
+offset_bottom = 126.0
+texture = ExtResource("1_7r1rm")
+
+[node name="TextureRect124" type="TextureRect" parent="."]
+offset_left = 219.0
+offset_top = 217.0
+offset_right = 347.0
+offset_bottom = 345.0
+texture = ExtResource("1_7r1rm")
+
+[node name="TextureRect125" type="TextureRect" parent="."]
+offset_left = 683.0
+offset_top = 61.0
+offset_right = 811.0
+offset_bottom = 189.0
+texture = ExtResource("1_7r1rm")
+
+[node name="TextureRect126" type="TextureRect" parent="."]
+offset_left = 926.0
+offset_top = 337.0
+offset_right = 1054.0
+offset_bottom = 465.0
+texture = ExtResource("1_7r1rm")
+
+[node name="TextureRect127" type="TextureRect" parent="."]
+offset_left = 926.0
+offset_top = 337.0
+offset_right = 1054.0
+offset_bottom = 465.0
+texture = ExtResource("1_7r1rm")
+
+[node name="TextureRect128" type="TextureRect" parent="."]
+offset_left = 556.0
+offset_top = 432.0
+offset_right = 684.0
+offset_bottom = 560.0
+texture = ExtResource("1_7r1rm")
+
+[node name="TextureRect129" type="TextureRect" parent="."]
+offset_left = 519.0
+offset_top = 235.0
+offset_right = 647.0
+offset_bottom = 363.0
+texture = ExtResource("1_7r1rm")
+
+[node name="TextureRect130" type="TextureRect" parent="."]
+offset_left = 904.0
+offset_top = 99.0
+offset_right = 1032.0
+offset_bottom = 227.0
+texture = ExtResource("1_7r1rm")
+
+[node name="TextureRect131" type="TextureRect" parent="."]
+offset_left = 259.0
+offset_top = 438.0
+offset_right = 387.0
+offset_bottom = 566.0
+texture = ExtResource("1_7r1rm")
+
+[node name="TextureRect132" type="TextureRect" parent="."]
+offset_left = 556.0
+offset_top = 432.0
+offset_right = 684.0
+offset_bottom = 560.0
+texture = ExtResource("1_7r1rm")
+
+[node name="TextureRect133" type="TextureRect" parent="."]
+offset_right = 40.0
+offset_bottom = 40.0
+texture = ExtResource("1_7r1rm")
+
+[node name="TextureRect134" type="TextureRect" parent="."]
+offset_left = 244.0
+offset_top = -2.0
+offset_right = 372.0
+offset_bottom = 126.0
+texture = ExtResource("1_7r1rm")
+
+[node name="TextureRect135" type="TextureRect" parent="."]
+offset_left = 219.0
+offset_top = 217.0
+offset_right = 347.0
+offset_bottom = 345.0
+texture = ExtResource("1_7r1rm")
+
+[node name="TextureRect136" type="TextureRect" parent="."]
+offset_left = 683.0
+offset_top = 61.0
+offset_right = 811.0
+offset_bottom = 189.0
+texture = ExtResource("1_7r1rm")
+
+[node name="TextureRect137" type="TextureRect" parent="."]
+offset_left = 926.0
+offset_top = 337.0
+offset_right = 1054.0
+offset_bottom = 465.0
+texture = ExtResource("1_7r1rm")
+
+[node name="TextureRect138" type="TextureRect" parent="."]
+offset_left = 926.0
+offset_top = 337.0
+offset_right = 1054.0
+offset_bottom = 465.0
+texture = ExtResource("1_7r1rm")
+
+[node name="TextureRect139" type="TextureRect" parent="."]
+offset_left = 556.0
+offset_top = 432.0
+offset_right = 684.0
+offset_bottom = 560.0
+texture = ExtResource("1_7r1rm")
+
+[node name="TextureRect140" type="TextureRect" parent="."]
+offset_left = 519.0
+offset_top = 235.0
+offset_right = 647.0
+offset_bottom = 363.0
+texture = ExtResource("1_7r1rm")
+
+[node name="TextureRect141" type="TextureRect" parent="."]
+offset_left = 904.0
+offset_top = 99.0
+offset_right = 1032.0
+offset_bottom = 227.0
+texture = ExtResource("1_7r1rm")
+
+[node name="TextureRect142" type="TextureRect" parent="."]
+offset_left = 259.0
+offset_top = 438.0
+offset_right = 387.0
+offset_bottom = 566.0
+texture = ExtResource("1_7r1rm")
+
+[node name="TextureRect143" type="TextureRect" parent="."]
+offset_left = 556.0
+offset_top = 432.0
+offset_right = 684.0
+offset_bottom = 560.0
+texture = ExtResource("1_7r1rm")
+
+[node name="TextureRect144" type="TextureRect" parent="."]
+offset_right = 40.0
+offset_bottom = 40.0
+texture = ExtResource("1_7r1rm")
+
+[node name="TextureRect145" type="TextureRect" parent="."]
+offset_left = 244.0
+offset_top = -2.0
+offset_right = 372.0
+offset_bottom = 126.0
+texture = ExtResource("1_7r1rm")
+
+[node name="TextureRect146" type="TextureRect" parent="."]
+offset_left = 219.0
+offset_top = 217.0
+offset_right = 347.0
+offset_bottom = 345.0
+texture = ExtResource("1_7r1rm")
+
+[node name="TextureRect147" type="TextureRect" parent="."]
+offset_left = 683.0
+offset_top = 61.0
+offset_right = 811.0
+offset_bottom = 189.0
+texture = ExtResource("1_7r1rm")
+
+[node name="TextureRect148" type="TextureRect" parent="."]
+offset_left = 926.0
+offset_top = 337.0
+offset_right = 1054.0
+offset_bottom = 465.0
+texture = ExtResource("1_7r1rm")
+
+[node name="TextureRect149" type="TextureRect" parent="."]
+offset_left = 926.0
+offset_top = 337.0
+offset_right = 1054.0
+offset_bottom = 465.0
+texture = ExtResource("1_7r1rm")
+
+[node name="TextureRect150" type="TextureRect" parent="."]
+offset_left = 556.0
+offset_top = 432.0
+offset_right = 684.0
+offset_bottom = 560.0
+texture = ExtResource("1_7r1rm")
+
+[node name="TextureRect151" type="TextureRect" parent="."]
+offset_left = 519.0
+offset_top = 235.0
+offset_right = 647.0
+offset_bottom = 363.0
+texture = ExtResource("1_7r1rm")
+
+[node name="TextureRect152" type="TextureRect" parent="."]
+offset_left = 904.0
+offset_top = 99.0
+offset_right = 1032.0
+offset_bottom = 227.0
+texture = ExtResource("1_7r1rm")
+
+[node name="TextureRect153" type="TextureRect" parent="."]
+offset_left = 259.0
+offset_top = 438.0
+offset_right = 387.0
+offset_bottom = 566.0
+texture = ExtResource("1_7r1rm")
+
+[node name="TextureRect154" type="TextureRect" parent="."]
+offset_left = 556.0
+offset_top = 432.0
+offset_right = 684.0
+offset_bottom = 560.0
+texture = ExtResource("1_7r1rm")
+
+[node name="TextureRect155" type="TextureRect" parent="."]
+offset_right = 40.0
+offset_bottom = 40.0
+texture = ExtResource("1_7r1rm")
+
+[node name="TextureRect156" type="TextureRect" parent="."]
+offset_left = 244.0
+offset_top = -2.0
+offset_right = 372.0
+offset_bottom = 126.0
+texture = ExtResource("1_7r1rm")
+
+[node name="TextureRect157" type="TextureRect" parent="."]
+offset_left = 219.0
+offset_top = 217.0
+offset_right = 347.0
+offset_bottom = 345.0
+texture = ExtResource("1_7r1rm")
+
+[node name="TextureRect158" type="TextureRect" parent="."]
+offset_left = 683.0
+offset_top = 61.0
+offset_right = 811.0
+offset_bottom = 189.0
+texture = ExtResource("1_7r1rm")
+
+[node name="TextureRect159" type="TextureRect" parent="."]
+offset_left = 926.0
+offset_top = 337.0
+offset_right = 1054.0
+offset_bottom = 465.0
+texture = ExtResource("1_7r1rm")
+
+[node name="TextureRect160" type="TextureRect" parent="."]
+offset_left = 926.0
+offset_top = 337.0
+offset_right = 1054.0
+offset_bottom = 465.0
+texture = ExtResource("1_7r1rm")
+
+[node name="TextureRect161" type="TextureRect" parent="."]
+offset_left = 556.0
+offset_top = 432.0
+offset_right = 684.0
+offset_bottom = 560.0
+texture = ExtResource("1_7r1rm")
+
+[node name="TextureRect162" type="TextureRect" parent="."]
+offset_left = 519.0
+offset_top = 235.0
+offset_right = 647.0
+offset_bottom = 363.0
+texture = ExtResource("1_7r1rm")
+
+[node name="TextureRect163" type="TextureRect" parent="."]
+offset_left = 904.0
+offset_top = 99.0
+offset_right = 1032.0
+offset_bottom = 227.0
+texture = ExtResource("1_7r1rm")
+
+[node name="TextureRect164" type="TextureRect" parent="."]
+offset_left = 259.0
+offset_top = 438.0
+offset_right = 387.0
+offset_bottom = 566.0
+texture = ExtResource("1_7r1rm")
+
+[node name="TextureRect165" type="TextureRect" parent="."]
+offset_left = 556.0
+offset_top = 432.0
+offset_right = 684.0
+offset_bottom = 560.0
+texture = ExtResource("1_7r1rm")
+
+[node name="TextureRect166" type="TextureRect" parent="."]
+offset_right = 40.0
+offset_bottom = 40.0
+texture = ExtResource("1_7r1rm")
+
+[node name="TextureRect167" type="TextureRect" parent="."]
+offset_left = 244.0
+offset_top = -2.0
+offset_right = 372.0
+offset_bottom = 126.0
+texture = ExtResource("1_7r1rm")
+
+[node name="TextureRect168" type="TextureRect" parent="."]
+offset_left = 219.0
+offset_top = 217.0
+offset_right = 347.0
+offset_bottom = 345.0
+texture = ExtResource("1_7r1rm")
+
+[node name="TextureRect169" type="TextureRect" parent="."]
+offset_left = 683.0
+offset_top = 61.0
+offset_right = 811.0
+offset_bottom = 189.0
+texture = ExtResource("1_7r1rm")
+
+[node name="TextureRect170" type="TextureRect" parent="."]
+offset_left = 926.0
+offset_top = 337.0
+offset_right = 1054.0
+offset_bottom = 465.0
+texture = ExtResource("1_7r1rm")
+
+[node name="TextureRect171" type="TextureRect" parent="."]
+offset_left = 926.0
+offset_top = 337.0
+offset_right = 1054.0
+offset_bottom = 465.0
+texture = ExtResource("1_7r1rm")
+
+[node name="TextureRect172" type="TextureRect" parent="."]
+offset_left = 556.0
+offset_top = 432.0
+offset_right = 684.0
+offset_bottom = 560.0
+texture = ExtResource("1_7r1rm")
+
+[node name="TextureRect173" type="TextureRect" parent="."]
+offset_left = 519.0
+offset_top = 235.0
+offset_right = 647.0
+offset_bottom = 363.0
+texture = ExtResource("1_7r1rm")
+
+[node name="TextureRect174" type="TextureRect" parent="."]
+offset_left = 904.0
+offset_top = 99.0
+offset_right = 1032.0
+offset_bottom = 227.0
+texture = ExtResource("1_7r1rm")
+
+[node name="TextureRect175" type="TextureRect" parent="."]
+offset_left = 259.0
+offset_top = 438.0
+offset_right = 387.0
+offset_bottom = 566.0
+texture = ExtResource("1_7r1rm")
+
+[node name="TextureRect176" type="TextureRect" parent="."]
+offset_left = 556.0
+offset_top = 432.0
+offset_right = 684.0
+offset_bottom = 560.0
+texture = ExtResource("1_7r1rm")
+
+[node name="TextureRect177" type="TextureRect" parent="."]
+offset_right = 40.0
+offset_bottom = 40.0
+texture = ExtResource("1_7r1rm")
+
+[node name="TextureRect178" type="TextureRect" parent="."]
+offset_left = 244.0
+offset_top = -2.0
+offset_right = 372.0
+offset_bottom = 126.0
+texture = ExtResource("1_7r1rm")
+
+[node name="TextureRect179" type="TextureRect" parent="."]
+offset_left = 219.0
+offset_top = 217.0
+offset_right = 347.0
+offset_bottom = 345.0
+texture = ExtResource("1_7r1rm")
+
+[node name="TextureRect180" type="TextureRect" parent="."]
+offset_left = 683.0
+offset_top = 61.0
+offset_right = 811.0
+offset_bottom = 189.0
+texture = ExtResource("1_7r1rm")
+
+[node name="TextureRect181" type="TextureRect" parent="."]
+offset_left = 926.0
+offset_top = 337.0
+offset_right = 1054.0
+offset_bottom = 465.0
+texture = ExtResource("1_7r1rm")
+
+[node name="TextureRect182" type="TextureRect" parent="."]
+offset_left = 926.0
+offset_top = 337.0
+offset_right = 1054.0
+offset_bottom = 465.0
+texture = ExtResource("1_7r1rm")
+
+[node name="TextureRect183" type="TextureRect" parent="."]
+offset_left = 556.0
+offset_top = 432.0
+offset_right = 684.0
+offset_bottom = 560.0
+texture = ExtResource("1_7r1rm")
+
+[node name="TextureRect184" type="TextureRect" parent="."]
+offset_left = 519.0
+offset_top = 235.0
+offset_right = 647.0
+offset_bottom = 363.0
+texture = ExtResource("1_7r1rm")
+
+[node name="TextureRect185" type="TextureRect" parent="."]
+offset_left = 904.0
+offset_top = 99.0
+offset_right = 1032.0
+offset_bottom = 227.0
+texture = ExtResource("1_7r1rm")
+
+[node name="TextureRect186" type="TextureRect" parent="."]
+offset_left = 259.0
+offset_top = 438.0
+offset_right = 387.0
+offset_bottom = 566.0
+texture = ExtResource("1_7r1rm")
+
+[node name="TextureRect187" type="TextureRect" parent="."]
+offset_left = 556.0
+offset_top = 432.0
+offset_right = 684.0
+offset_bottom = 560.0
+texture = ExtResource("1_7r1rm")
+
+[node name="TextureRect188" type="TextureRect" parent="."]
+offset_right = 40.0
+offset_bottom = 40.0
+texture = ExtResource("1_7r1rm")
+
+[node name="TextureRect189" type="TextureRect" parent="."]
+offset_left = 244.0
+offset_top = -2.0
+offset_right = 372.0
+offset_bottom = 126.0
+texture = ExtResource("1_7r1rm")
+
+[node name="TextureRect190" type="TextureRect" parent="."]
+offset_left = 219.0
+offset_top = 217.0
+offset_right = 347.0
+offset_bottom = 345.0
+texture = ExtResource("1_7r1rm")
+
+[node name="TextureRect191" type="TextureRect" parent="."]
+offset_left = 683.0
+offset_top = 61.0
+offset_right = 811.0
+offset_bottom = 189.0
+texture = ExtResource("1_7r1rm")
+
+[node name="TextureRect192" type="TextureRect" parent="."]
+offset_left = 926.0
+offset_top = 337.0
+offset_right = 1054.0
+offset_bottom = 465.0
+texture = ExtResource("1_7r1rm")
+
+[node name="TextureRect193" type="TextureRect" parent="."]
+offset_left = 926.0
+offset_top = 337.0
+offset_right = 1054.0
+offset_bottom = 465.0
+texture = ExtResource("1_7r1rm")
+
+[node name="TextureRect194" type="TextureRect" parent="."]
+offset_left = 556.0
+offset_top = 432.0
+offset_right = 684.0
+offset_bottom = 560.0
+texture = ExtResource("1_7r1rm")
+
+[node name="TextureRect195" type="TextureRect" parent="."]
+offset_left = 519.0
+offset_top = 235.0
+offset_right = 647.0
+offset_bottom = 363.0
+texture = ExtResource("1_7r1rm")
+
+[node name="TextureRect196" type="TextureRect" parent="."]
+offset_left = 904.0
+offset_top = 99.0
+offset_right = 1032.0
+offset_bottom = 227.0
+texture = ExtResource("1_7r1rm")
+
+[node name="TextureRect197" type="TextureRect" parent="."]
+offset_left = 259.0
+offset_top = 438.0
+offset_right = 387.0
+offset_bottom = 566.0
+texture = ExtResource("1_7r1rm")
+
+[node name="TextureRect198" type="TextureRect" parent="."]
+offset_left = 556.0
+offset_top = 432.0
+offset_right = 684.0
+offset_bottom = 560.0
+texture = ExtResource("1_7r1rm")
+
+[node name="TextureRect199" type="TextureRect" parent="."]
+offset_right = 40.0
+offset_bottom = 40.0
+texture = ExtResource("1_7r1rm")
+
+[node name="TextureRect200" type="TextureRect" parent="."]
+offset_left = 244.0
+offset_top = -2.0
+offset_right = 372.0
+offset_bottom = 126.0
+texture = ExtResource("1_7r1rm")
+
+[node name="TextureRect201" type="TextureRect" parent="."]
+offset_left = 219.0
+offset_top = 217.0
+offset_right = 347.0
+offset_bottom = 345.0
+texture = ExtResource("1_7r1rm")
+
+[node name="TextureRect202" type="TextureRect" parent="."]
+offset_left = 683.0
+offset_top = 61.0
+offset_right = 811.0
+offset_bottom = 189.0
+texture = ExtResource("1_7r1rm")
+
+[node name="TextureRect203" type="TextureRect" parent="."]
+offset_left = 926.0
+offset_top = 337.0
+offset_right = 1054.0
+offset_bottom = 465.0
+texture = ExtResource("1_7r1rm")
+
+[node name="TextureRect204" type="TextureRect" parent="."]
+offset_left = 926.0
+offset_top = 337.0
+offset_right = 1054.0
+offset_bottom = 465.0
+texture = ExtResource("1_7r1rm")
+
+[node name="TextureRect205" type="TextureRect" parent="."]
+offset_left = 556.0
+offset_top = 432.0
+offset_right = 684.0
+offset_bottom = 560.0
+texture = ExtResource("1_7r1rm")
+
+[node name="TextureRect206" type="TextureRect" parent="."]
+offset_left = 519.0
+offset_top = 235.0
+offset_right = 647.0
+offset_bottom = 363.0
+texture = ExtResource("1_7r1rm")
+
+[node name="TextureRect207" type="TextureRect" parent="."]
+offset_left = 904.0
+offset_top = 99.0
+offset_right = 1032.0
+offset_bottom = 227.0
+texture = ExtResource("1_7r1rm")
+
+[node name="TextureRect208" type="TextureRect" parent="."]
+offset_left = 259.0
+offset_top = 438.0
+offset_right = 387.0
+offset_bottom = 566.0
+texture = ExtResource("1_7r1rm")
+
+[node name="TextureRect209" type="TextureRect" parent="."]
+offset_left = 556.0
+offset_top = 432.0
+offset_right = 684.0
+offset_bottom = 560.0
+texture = ExtResource("1_7r1rm")
+
+[node name="TextureRect210" type="TextureRect" parent="."]
+offset_right = 40.0
+offset_bottom = 40.0
+texture = ExtResource("1_7r1rm")
+
+[node name="TextureRect211" type="TextureRect" parent="."]
+offset_left = 244.0
+offset_top = -2.0
+offset_right = 372.0
+offset_bottom = 126.0
+texture = ExtResource("1_7r1rm")
+
+[node name="TextureRect212" type="TextureRect" parent="."]
+offset_left = 219.0
+offset_top = 217.0
+offset_right = 347.0
+offset_bottom = 345.0
+texture = ExtResource("1_7r1rm")
+
+[node name="TextureRect213" type="TextureRect" parent="."]
+offset_left = 683.0
+offset_top = 61.0
+offset_right = 811.0
+offset_bottom = 189.0
+texture = ExtResource("1_7r1rm")
+
+[node name="TextureRect214" type="TextureRect" parent="."]
+offset_left = 926.0
+offset_top = 337.0
+offset_right = 1054.0
+offset_bottom = 465.0
+texture = ExtResource("1_7r1rm")
+
+[node name="TextureRect215" type="TextureRect" parent="."]
+offset_left = 926.0
+offset_top = 337.0
+offset_right = 1054.0
+offset_bottom = 465.0
+texture = ExtResource("1_7r1rm")
+
+[node name="TextureRect216" type="TextureRect" parent="."]
+offset_left = 556.0
+offset_top = 432.0
+offset_right = 684.0
+offset_bottom = 560.0
+texture = ExtResource("1_7r1rm")
+
+[node name="TextureRect217" type="TextureRect" parent="."]
+offset_left = 519.0
+offset_top = 235.0
+offset_right = 647.0
+offset_bottom = 363.0
+texture = ExtResource("1_7r1rm")
+
+[node name="TextureRect218" type="TextureRect" parent="."]
+offset_left = 904.0
+offset_top = 99.0
+offset_right = 1032.0
+offset_bottom = 227.0
+texture = ExtResource("1_7r1rm")
+
+[node name="TextureRect219" type="TextureRect" parent="."]
+offset_left = 259.0
+offset_top = 438.0
+offset_right = 387.0
+offset_bottom = 566.0
+texture = ExtResource("1_7r1rm")
+
+[node name="TextureRect220" type="TextureRect" parent="."]
+offset_left = 556.0
+offset_top = 432.0
+offset_right = 684.0
+offset_bottom = 560.0
+texture = ExtResource("1_7r1rm")
+
+[node name="TextureRect221" type="TextureRect" parent="."]
+offset_right = 40.0
+offset_bottom = 40.0
+texture = ExtResource("1_7r1rm")
+
+[node name="TextureRect222" type="TextureRect" parent="."]
+offset_left = 244.0
+offset_top = -2.0
+offset_right = 372.0
+offset_bottom = 126.0
+texture = ExtResource("1_7r1rm")
+
+[node name="TextureRect223" type="TextureRect" parent="."]
+offset_left = 219.0
+offset_top = 217.0
+offset_right = 347.0
+offset_bottom = 345.0
+texture = ExtResource("1_7r1rm")
+
+[node name="TextureRect224" type="TextureRect" parent="."]
+offset_left = 683.0
+offset_top = 61.0
+offset_right = 811.0
+offset_bottom = 189.0
+texture = ExtResource("1_7r1rm")
+
+[node name="TextureRect225" type="TextureRect" parent="."]
+offset_left = 926.0
+offset_top = 337.0
+offset_right = 1054.0
+offset_bottom = 465.0
+texture = ExtResource("1_7r1rm")
+
+[node name="TextureRect226" type="TextureRect" parent="."]
+offset_left = 926.0
+offset_top = 337.0
+offset_right = 1054.0
+offset_bottom = 465.0
+texture = ExtResource("1_7r1rm")
+
+[node name="TextureRect227" type="TextureRect" parent="."]
+offset_left = 556.0
+offset_top = 432.0
+offset_right = 684.0
+offset_bottom = 560.0
+texture = ExtResource("1_7r1rm")
+
+[node name="TextureRect228" type="TextureRect" parent="."]
+offset_left = 519.0
+offset_top = 235.0
+offset_right = 647.0
+offset_bottom = 363.0
+texture = ExtResource("1_7r1rm")
+
+[node name="TextureRect229" type="TextureRect" parent="."]
+offset_left = 904.0
+offset_top = 99.0
+offset_right = 1032.0
+offset_bottom = 227.0
+texture = ExtResource("1_7r1rm")
+
+[node name="TextureRect230" type="TextureRect" parent="."]
+offset_left = 259.0
+offset_top = 438.0
+offset_right = 387.0
+offset_bottom = 566.0
+texture = ExtResource("1_7r1rm")
+
+[node name="TextureRect231" type="TextureRect" parent="."]
+offset_left = 556.0
+offset_top = 432.0
+offset_right = 684.0
+offset_bottom = 560.0
+texture = ExtResource("1_7r1rm")
+
+[node name="TextureRect232" type="TextureRect" parent="."]
+offset_right = 40.0
+offset_bottom = 40.0
+texture = ExtResource("1_7r1rm")
+
+[node name="TextureRect233" type="TextureRect" parent="."]
+offset_left = 244.0
+offset_top = -2.0
+offset_right = 372.0
+offset_bottom = 126.0
+texture = ExtResource("1_7r1rm")
+
+[node name="TextureRect234" type="TextureRect" parent="."]
+offset_left = 219.0
+offset_top = 217.0
+offset_right = 347.0
+offset_bottom = 345.0
+texture = ExtResource("1_7r1rm")
+
+[node name="TextureRect235" type="TextureRect" parent="."]
+offset_left = 683.0
+offset_top = 61.0
+offset_right = 811.0
+offset_bottom = 189.0
+texture = ExtResource("1_7r1rm")
+
+[node name="TextureRect236" type="TextureRect" parent="."]
+offset_left = 926.0
+offset_top = 337.0
+offset_right = 1054.0
+offset_bottom = 465.0
+texture = ExtResource("1_7r1rm")
+
+[node name="TextureRect237" type="TextureRect" parent="."]
+offset_left = 926.0
+offset_top = 337.0
+offset_right = 1054.0
+offset_bottom = 465.0
+texture = ExtResource("1_7r1rm")
+
+[node name="TextureRect238" type="TextureRect" parent="."]
+offset_left = 556.0
+offset_top = 432.0
+offset_right = 684.0
+offset_bottom = 560.0
+texture = ExtResource("1_7r1rm")
+
+[node name="TextureRect239" type="TextureRect" parent="."]
+offset_left = 519.0
+offset_top = 235.0
+offset_right = 647.0
+offset_bottom = 363.0
+texture = ExtResource("1_7r1rm")
+
+[node name="TextureRect240" type="TextureRect" parent="."]
+offset_left = 904.0
+offset_top = 99.0
+offset_right = 1032.0
+offset_bottom = 227.0
+texture = ExtResource("1_7r1rm")
+
+[node name="TextureRect241" type="TextureRect" parent="."]
+offset_left = 259.0
+offset_top = 438.0
+offset_right = 387.0
+offset_bottom = 566.0
+texture = ExtResource("1_7r1rm")
+
+[node name="TextureRect242" type="TextureRect" parent="."]
+offset_left = 556.0
+offset_top = 432.0
+offset_right = 684.0
+offset_bottom = 560.0
+texture = ExtResource("1_7r1rm")
+
+[node name="TextureRect243" type="TextureRect" parent="."]
+offset_right = 40.0
+offset_bottom = 40.0
+texture = ExtResource("1_7r1rm")
+
+[node name="TextureRect244" type="TextureRect" parent="."]
+offset_left = 244.0
+offset_top = -2.0
+offset_right = 372.0
+offset_bottom = 126.0
+texture = ExtResource("1_7r1rm")
+
+[node name="TextureRect245" type="TextureRect" parent="."]
+offset_left = 219.0
+offset_top = 217.0
+offset_right = 347.0
+offset_bottom = 345.0
+texture = ExtResource("1_7r1rm")
+
+[node name="TextureRect246" type="TextureRect" parent="."]
+offset_left = 683.0
+offset_top = 61.0
+offset_right = 811.0
+offset_bottom = 189.0
+texture = ExtResource("1_7r1rm")
+
+[node name="TextureRect247" type="TextureRect" parent="."]
+offset_left = 926.0
+offset_top = 337.0
+offset_right = 1054.0
+offset_bottom = 465.0
+texture = ExtResource("1_7r1rm")
+
+[node name="TextureRect248" type="TextureRect" parent="."]
+offset_left = 926.0
+offset_top = 337.0
+offset_right = 1054.0
+offset_bottom = 465.0
+texture = ExtResource("1_7r1rm")
+
+[node name="TextureRect249" type="TextureRect" parent="."]
+offset_left = 556.0
+offset_top = 432.0
+offset_right = 684.0
+offset_bottom = 560.0
+texture = ExtResource("1_7r1rm")
+
+[node name="TextureRect250" type="TextureRect" parent="."]
+offset_left = 519.0
+offset_top = 235.0
+offset_right = 647.0
+offset_bottom = 363.0
+texture = ExtResource("1_7r1rm")
+
+[node name="TextureRect251" type="TextureRect" parent="."]
+offset_left = 904.0
+offset_top = 99.0
+offset_right = 1032.0
+offset_bottom = 227.0
+texture = ExtResource("1_7r1rm")
+
+[node name="TextureRect252" type="TextureRect" parent="."]
+offset_left = 259.0
+offset_top = 438.0
+offset_right = 387.0
+offset_bottom = 566.0
+texture = ExtResource("1_7r1rm")
+
+[node name="TextureRect253" type="TextureRect" parent="."]
+offset_left = 556.0
+offset_top = 432.0
+offset_right = 684.0
+offset_bottom = 560.0
+texture = ExtResource("1_7r1rm")
+
+[node name="TextureRect254" type="TextureRect" parent="."]
+offset_right = 40.0
+offset_bottom = 40.0
+texture = ExtResource("1_7r1rm")
+
+[node name="TextureRect255" type="TextureRect" parent="."]
+offset_left = 244.0
+offset_top = -2.0
+offset_right = 372.0
+offset_bottom = 126.0
+texture = ExtResource("1_7r1rm")
+
+[node name="TextureRect256" type="TextureRect" parent="."]
+offset_left = 219.0
+offset_top = 217.0
+offset_right = 347.0
+offset_bottom = 345.0
+texture = ExtResource("1_7r1rm")
+
+[node name="TextureRect257" type="TextureRect" parent="."]
+offset_left = 683.0
+offset_top = 61.0
+offset_right = 811.0
+offset_bottom = 189.0
+texture = ExtResource("1_7r1rm")
+
+[node name="TextureRect258" type="TextureRect" parent="."]
+offset_left = 926.0
+offset_top = 337.0
+offset_right = 1054.0
+offset_bottom = 465.0
+texture = ExtResource("1_7r1rm")
+
+[node name="TextureRect259" type="TextureRect" parent="."]
+offset_left = 926.0
+offset_top = 337.0
+offset_right = 1054.0
+offset_bottom = 465.0
+texture = ExtResource("1_7r1rm")
+
+[node name="TextureRect260" type="TextureRect" parent="."]
+offset_left = 556.0
+offset_top = 432.0
+offset_right = 684.0
+offset_bottom = 560.0
+texture = ExtResource("1_7r1rm")
+
+[node name="TextureRect261" type="TextureRect" parent="."]
+offset_left = 519.0
+offset_top = 235.0
+offset_right = 647.0
+offset_bottom = 363.0
+texture = ExtResource("1_7r1rm")
+
+[node name="TextureRect262" type="TextureRect" parent="."]
+offset_left = 904.0
+offset_top = 99.0
+offset_right = 1032.0
+offset_bottom = 227.0
+texture = ExtResource("1_7r1rm")
+
+[node name="TextureRect263" type="TextureRect" parent="."]
+offset_left = 259.0
+offset_top = 438.0
+offset_right = 387.0
+offset_bottom = 566.0
+texture = ExtResource("1_7r1rm")
+
+[node name="TextureRect264" type="TextureRect" parent="."]
+offset_left = 556.0
+offset_top = 432.0
+offset_right = 684.0
+offset_bottom = 560.0
+texture = ExtResource("1_7r1rm")
+
+[node name="TextureRect265" type="TextureRect" parent="."]
+offset_right = 40.0
+offset_bottom = 40.0
+texture = ExtResource("1_7r1rm")
+
+[node name="TextureRect266" type="TextureRect" parent="."]
+offset_left = 244.0
+offset_top = -2.0
+offset_right = 372.0
+offset_bottom = 126.0
+texture = ExtResource("1_7r1rm")
+
+[node name="TextureRect267" type="TextureRect" parent="."]
+offset_left = 219.0
+offset_top = 217.0
+offset_right = 347.0
+offset_bottom = 345.0
+texture = ExtResource("1_7r1rm")
+
+[node name="TextureRect268" type="TextureRect" parent="."]
+offset_left = 683.0
+offset_top = 61.0
+offset_right = 811.0
+offset_bottom = 189.0
+texture = ExtResource("1_7r1rm")
+
+[node name="TextureRect269" type="TextureRect" parent="."]
+offset_left = 926.0
+offset_top = 337.0
+offset_right = 1054.0
+offset_bottom = 465.0
+texture = ExtResource("1_7r1rm")
+
+[node name="TextureRect270" type="TextureRect" parent="."]
+offset_left = 926.0
+offset_top = 337.0
+offset_right = 1054.0
+offset_bottom = 465.0
+texture = ExtResource("1_7r1rm")
+
+[node name="TextureRect271" type="TextureRect" parent="."]
+offset_left = 556.0
+offset_top = 432.0
+offset_right = 684.0
+offset_bottom = 560.0
+texture = ExtResource("1_7r1rm")
+
+[node name="TextureRect272" type="TextureRect" parent="."]
+offset_left = 519.0
+offset_top = 235.0
+offset_right = 647.0
+offset_bottom = 363.0
+texture = ExtResource("1_7r1rm")
+
+[node name="TextureRect273" type="TextureRect" parent="."]
+offset_left = 904.0
+offset_top = 99.0
+offset_right = 1032.0
+offset_bottom = 227.0
+texture = ExtResource("1_7r1rm")
+
+[node name="TextureRect274" type="TextureRect" parent="."]
+offset_left = 259.0
+offset_top = 438.0
+offset_right = 387.0
+offset_bottom = 566.0
+texture = ExtResource("1_7r1rm")
+
+[node name="TextureRect275" type="TextureRect" parent="."]
+offset_left = 556.0
+offset_top = 432.0
+offset_right = 684.0
+offset_bottom = 560.0
+texture = ExtResource("1_7r1rm")
+
+[node name="TextureRect276" type="TextureRect" parent="."]
+offset_right = 40.0
+offset_bottom = 40.0
+texture = ExtResource("1_7r1rm")
+
+[node name="TextureRect277" type="TextureRect" parent="."]
+offset_left = 244.0
+offset_top = -2.0
+offset_right = 372.0
+offset_bottom = 126.0
+texture = ExtResource("1_7r1rm")
+
+[node name="TextureRect278" type="TextureRect" parent="."]
+offset_left = 219.0
+offset_top = 217.0
+offset_right = 347.0
+offset_bottom = 345.0
+texture = ExtResource("1_7r1rm")
+
+[node name="TextureRect279" type="TextureRect" parent="."]
+offset_left = 683.0
+offset_top = 61.0
+offset_right = 811.0
+offset_bottom = 189.0
+texture = ExtResource("1_7r1rm")
+
+[node name="TextureRect280" type="TextureRect" parent="."]
+offset_left = 926.0
+offset_top = 337.0
+offset_right = 1054.0
+offset_bottom = 465.0
+texture = ExtResource("1_7r1rm")
+
+[node name="TextureRect281" type="TextureRect" parent="."]
+offset_left = 926.0
+offset_top = 337.0
+offset_right = 1054.0
+offset_bottom = 465.0
+texture = ExtResource("1_7r1rm")
+
+[node name="TextureRect282" type="TextureRect" parent="."]
+offset_left = 556.0
+offset_top = 432.0
+offset_right = 684.0
+offset_bottom = 560.0
+texture = ExtResource("1_7r1rm")
+
+[node name="TextureRect283" type="TextureRect" parent="."]
+offset_left = 519.0
+offset_top = 235.0
+offset_right = 647.0
+offset_bottom = 363.0
+texture = ExtResource("1_7r1rm")
+
+[node name="TextureRect284" type="TextureRect" parent="."]
+offset_left = 904.0
+offset_top = 99.0
+offset_right = 1032.0
+offset_bottom = 227.0
+texture = ExtResource("1_7r1rm")
+
+[node name="TextureRect285" type="TextureRect" parent="."]
+offset_left = 259.0
+offset_top = 438.0
+offset_right = 387.0
+offset_bottom = 566.0
+texture = ExtResource("1_7r1rm")
+
+[node name="TextureRect286" type="TextureRect" parent="."]
+offset_left = 556.0
+offset_top = 432.0
+offset_right = 684.0
+offset_bottom = 560.0
+texture = ExtResource("1_7r1rm")
+
+[node name="TextureRect287" type="TextureRect" parent="."]
+offset_right = 40.0
+offset_bottom = 40.0
+texture = ExtResource("1_7r1rm")
+
+[node name="TextureRect288" type="TextureRect" parent="."]
+offset_left = 244.0
+offset_top = -2.0
+offset_right = 372.0
+offset_bottom = 126.0
+texture = ExtResource("1_7r1rm")
+
+[node name="TextureRect289" type="TextureRect" parent="."]
+offset_left = 219.0
+offset_top = 217.0
+offset_right = 347.0
+offset_bottom = 345.0
+texture = ExtResource("1_7r1rm")
+
+[node name="TextureRect290" type="TextureRect" parent="."]
+offset_left = 683.0
+offset_top = 61.0
+offset_right = 811.0
+offset_bottom = 189.0
+texture = ExtResource("1_7r1rm")
+
+[node name="TextureRect291" type="TextureRect" parent="."]
+offset_left = 926.0
+offset_top = 337.0
+offset_right = 1054.0
+offset_bottom = 465.0
+texture = ExtResource("1_7r1rm")
+
+[node name="TextureRect292" type="TextureRect" parent="."]
+offset_left = 926.0
+offset_top = 337.0
+offset_right = 1054.0
+offset_bottom = 465.0
+texture = ExtResource("1_7r1rm")
+
+[node name="TextureRect293" type="TextureRect" parent="."]
+offset_left = 556.0
+offset_top = 432.0
+offset_right = 684.0
+offset_bottom = 560.0
+texture = ExtResource("1_7r1rm")
+
+[node name="TextureRect294" type="TextureRect" parent="."]
+offset_left = 519.0
+offset_top = 235.0
+offset_right = 647.0
+offset_bottom = 363.0
+texture = ExtResource("1_7r1rm")
+
+[node name="TextureRect295" type="TextureRect" parent="."]
+offset_left = 904.0
+offset_top = 99.0
+offset_right = 1032.0
+offset_bottom = 227.0
+texture = ExtResource("1_7r1rm")
+
+[node name="TextureRect296" type="TextureRect" parent="."]
+offset_left = 259.0
+offset_top = 438.0
+offset_right = 387.0
+offset_bottom = 566.0
+texture = ExtResource("1_7r1rm")
+
+[node name="TextureRect297" type="TextureRect" parent="."]
+offset_left = 556.0
+offset_top = 432.0
+offset_right = 684.0
+offset_bottom = 560.0
+texture = ExtResource("1_7r1rm")
+
+[node name="TextureRect298" type="TextureRect" parent="."]
+offset_right = 40.0
+offset_bottom = 40.0
+texture = ExtResource("1_7r1rm")
+
+[node name="TextureRect299" type="TextureRect" parent="."]
+offset_left = 244.0
+offset_top = -2.0
+offset_right = 372.0
+offset_bottom = 126.0
+texture = ExtResource("1_7r1rm")
+
+[node name="TextureRect300" type="TextureRect" parent="."]
+offset_left = 219.0
+offset_top = 217.0
+offset_right = 347.0
+offset_bottom = 345.0
+texture = ExtResource("1_7r1rm")
+
+[node name="TextureRect301" type="TextureRect" parent="."]
+offset_left = 683.0
+offset_top = 61.0
+offset_right = 811.0
+offset_bottom = 189.0
+texture = ExtResource("1_7r1rm")
+
+[node name="TextureRect302" type="TextureRect" parent="."]
+offset_left = 926.0
+offset_top = 337.0
+offset_right = 1054.0
+offset_bottom = 465.0
+texture = ExtResource("1_7r1rm")
+
+[node name="TextureRect303" type="TextureRect" parent="."]
+offset_left = 926.0
+offset_top = 337.0
+offset_right = 1054.0
+offset_bottom = 465.0
+texture = ExtResource("1_7r1rm")
+
+[node name="TextureRect304" type="TextureRect" parent="."]
+offset_left = 556.0
+offset_top = 432.0
+offset_right = 684.0
+offset_bottom = 560.0
+texture = ExtResource("1_7r1rm")
+
+[node name="TextureRect305" type="TextureRect" parent="."]
+offset_left = 519.0
+offset_top = 235.0
+offset_right = 647.0
+offset_bottom = 363.0
+texture = ExtResource("1_7r1rm")
+
+[node name="TextureRect306" type="TextureRect" parent="."]
+offset_left = 904.0
+offset_top = 99.0
+offset_right = 1032.0
+offset_bottom = 227.0
+texture = ExtResource("1_7r1rm")
+
+[node name="TextureRect307" type="TextureRect" parent="."]
+offset_left = 259.0
+offset_top = 438.0
+offset_right = 387.0
+offset_bottom = 566.0
+texture = ExtResource("1_7r1rm")
+
+[node name="TextureRect308" type="TextureRect" parent="."]
+offset_left = 556.0
+offset_top = 432.0
+offset_right = 684.0
+offset_bottom = 560.0
+texture = ExtResource("1_7r1rm")
+
+[node name="TextureRect309" type="TextureRect" parent="."]
+offset_right = 40.0
+offset_bottom = 40.0
+texture = ExtResource("1_7r1rm")
+
+[node name="TextureRect310" type="TextureRect" parent="."]
+offset_left = 244.0
+offset_top = -2.0
+offset_right = 372.0
+offset_bottom = 126.0
+texture = ExtResource("1_7r1rm")
+
+[node name="TextureRect311" type="TextureRect" parent="."]
+offset_left = 219.0
+offset_top = 217.0
+offset_right = 347.0
+offset_bottom = 345.0
+texture = ExtResource("1_7r1rm")
+
+[node name="TextureRect312" type="TextureRect" parent="."]
+offset_left = 683.0
+offset_top = 61.0
+offset_right = 811.0
+offset_bottom = 189.0
+texture = ExtResource("1_7r1rm")
+
+[node name="TextureRect313" type="TextureRect" parent="."]
+offset_left = 926.0
+offset_top = 337.0
+offset_right = 1054.0
+offset_bottom = 465.0
+texture = ExtResource("1_7r1rm")
+
+[node name="TextureRect314" type="TextureRect" parent="."]
+offset_left = 926.0
+offset_top = 337.0
+offset_right = 1054.0
+offset_bottom = 465.0
+texture = ExtResource("1_7r1rm")
+
+[node name="TextureRect315" type="TextureRect" parent="."]
+offset_left = 556.0
+offset_top = 432.0
+offset_right = 684.0
+offset_bottom = 560.0
+texture = ExtResource("1_7r1rm")
+
+[node name="TextureRect316" type="TextureRect" parent="."]
+offset_left = 519.0
+offset_top = 235.0
+offset_right = 647.0
+offset_bottom = 363.0
+texture = ExtResource("1_7r1rm")
+
+[node name="TextureRect317" type="TextureRect" parent="."]
+offset_left = 904.0
+offset_top = 99.0
+offset_right = 1032.0
+offset_bottom = 227.0
+texture = ExtResource("1_7r1rm")
+
+[node name="TextureRect318" type="TextureRect" parent="."]
+offset_left = 259.0
+offset_top = 438.0
+offset_right = 387.0
+offset_bottom = 566.0
+texture = ExtResource("1_7r1rm")
+
+[node name="TextureRect319" type="TextureRect" parent="."]
+offset_left = 556.0
+offset_top = 432.0
+offset_right = 684.0
+offset_bottom = 560.0
+texture = ExtResource("1_7r1rm")
+
+[node name="TextureRect320" type="TextureRect" parent="."]
+offset_right = 40.0
+offset_bottom = 40.0
+texture = ExtResource("1_7r1rm")
+
+[node name="TextureRect321" type="TextureRect" parent="."]
+offset_left = 244.0
+offset_top = -2.0
+offset_right = 372.0
+offset_bottom = 126.0
+texture = ExtResource("1_7r1rm")
+
+[node name="TextureRect322" type="TextureRect" parent="."]
+offset_left = 219.0
+offset_top = 217.0
+offset_right = 347.0
+offset_bottom = 345.0
+texture = ExtResource("1_7r1rm")
+
+[node name="TextureRect323" type="TextureRect" parent="."]
+offset_left = 683.0
+offset_top = 61.0
+offset_right = 811.0
+offset_bottom = 189.0
+texture = ExtResource("1_7r1rm")
+
+[node name="TextureRect324" type="TextureRect" parent="."]
+offset_left = 926.0
+offset_top = 337.0
+offset_right = 1054.0
+offset_bottom = 465.0
+texture = ExtResource("1_7r1rm")
+
+[node name="TextureRect325" type="TextureRect" parent="."]
+offset_left = 926.0
+offset_top = 337.0
+offset_right = 1054.0
+offset_bottom = 465.0
+texture = ExtResource("1_7r1rm")
+
+[node name="TextureRect326" type="TextureRect" parent="."]
+offset_left = 556.0
+offset_top = 432.0
+offset_right = 684.0
+offset_bottom = 560.0
+texture = ExtResource("1_7r1rm")
+
+[node name="TextureRect327" type="TextureRect" parent="."]
+offset_left = 519.0
+offset_top = 235.0
+offset_right = 647.0
+offset_bottom = 363.0
+texture = ExtResource("1_7r1rm")
+
+[node name="TextureRect328" type="TextureRect" parent="."]
+offset_left = 904.0
+offset_top = 99.0
+offset_right = 1032.0
+offset_bottom = 227.0
+texture = ExtResource("1_7r1rm")
+
+[node name="TextureRect329" type="TextureRect" parent="."]
+offset_left = 259.0
+offset_top = 438.0
+offset_right = 387.0
+offset_bottom = 566.0
+texture = ExtResource("1_7r1rm")
+
+[node name="TextureRect330" type="TextureRect" parent="."]
+offset_left = 556.0
+offset_top = 432.0
+offset_right = 684.0
+offset_bottom = 560.0
+texture = ExtResource("1_7r1rm")
+
+[node name="TextureRect331" type="TextureRect" parent="."]
+offset_right = 40.0
+offset_bottom = 40.0
+texture = ExtResource("1_7r1rm")
+
+[node name="TextureRect332" type="TextureRect" parent="."]
+offset_left = 244.0
+offset_top = -2.0
+offset_right = 372.0
+offset_bottom = 126.0
+texture = ExtResource("1_7r1rm")
+
+[node name="TextureRect333" type="TextureRect" parent="."]
+offset_left = 219.0
+offset_top = 217.0
+offset_right = 347.0
+offset_bottom = 345.0
+texture = ExtResource("1_7r1rm")
+
+[node name="TextureRect334" type="TextureRect" parent="."]
+offset_left = 683.0
+offset_top = 61.0
+offset_right = 811.0
+offset_bottom = 189.0
+texture = ExtResource("1_7r1rm")
+
+[node name="TextureRect335" type="TextureRect" parent="."]
+offset_left = 926.0
+offset_top = 337.0
+offset_right = 1054.0
+offset_bottom = 465.0
+texture = ExtResource("1_7r1rm")
+
+[node name="TextureRect336" type="TextureRect" parent="."]
+offset_left = 926.0
+offset_top = 337.0
+offset_right = 1054.0
+offset_bottom = 465.0
+texture = ExtResource("1_7r1rm")
+
+[node name="TextureRect337" type="TextureRect" parent="."]
+offset_left = 556.0
+offset_top = 432.0
+offset_right = 684.0
+offset_bottom = 560.0
+texture = ExtResource("1_7r1rm")
+
+[node name="TextureRect338" type="TextureRect" parent="."]
+offset_left = 519.0
+offset_top = 235.0
+offset_right = 647.0
+offset_bottom = 363.0
+texture = ExtResource("1_7r1rm")
+
+[node name="TextureRect339" type="TextureRect" parent="."]
+offset_left = 904.0
+offset_top = 99.0
+offset_right = 1032.0
+offset_bottom = 227.0
+texture = ExtResource("1_7r1rm")
+
+[node name="TextureRect340" type="TextureRect" parent="."]
+offset_left = 259.0
+offset_top = 438.0
+offset_right = 387.0
+offset_bottom = 566.0
+texture = ExtResource("1_7r1rm")
+
+[node name="TextureRect341" type="TextureRect" parent="."]
+offset_left = 556.0
+offset_top = 432.0
+offset_right = 684.0
+offset_bottom = 560.0
+texture = ExtResource("1_7r1rm")
+
+[node name="TextureRect342" type="TextureRect" parent="."]
+offset_right = 40.0
+offset_bottom = 40.0
+texture = ExtResource("1_7r1rm")
+
+[node name="TextureRect343" type="TextureRect" parent="."]
+offset_left = 244.0
+offset_top = -2.0
+offset_right = 372.0
+offset_bottom = 126.0
+texture = ExtResource("1_7r1rm")
+
+[node name="TextureRect344" type="TextureRect" parent="."]
+offset_left = 219.0
+offset_top = 217.0
+offset_right = 347.0
+offset_bottom = 345.0
+texture = ExtResource("1_7r1rm")
+
+[node name="TextureRect345" type="TextureRect" parent="."]
+offset_left = 683.0
+offset_top = 61.0
+offset_right = 811.0
+offset_bottom = 189.0
+texture = ExtResource("1_7r1rm")
+
+[node name="TextureRect346" type="TextureRect" parent="."]
+offset_left = 926.0
+offset_top = 337.0
+offset_right = 1054.0
+offset_bottom = 465.0
+texture = ExtResource("1_7r1rm")
+
+[node name="TextureRect347" type="TextureRect" parent="."]
+offset_left = 926.0
+offset_top = 337.0
+offset_right = 1054.0
+offset_bottom = 465.0
+texture = ExtResource("1_7r1rm")
+
+[node name="TextureRect348" type="TextureRect" parent="."]
+offset_left = 556.0
+offset_top = 432.0
+offset_right = 684.0
+offset_bottom = 560.0
+texture = ExtResource("1_7r1rm")
+
+[node name="TextureRect349" type="TextureRect" parent="."]
+offset_left = 519.0
+offset_top = 235.0
+offset_right = 647.0
+offset_bottom = 363.0
+texture = ExtResource("1_7r1rm")
+
+[node name="TextureRect350" type="TextureRect" parent="."]
+offset_left = 904.0
+offset_top = 99.0
+offset_right = 1032.0
+offset_bottom = 227.0
+texture = ExtResource("1_7r1rm")
+
+[node name="TextureRect351" type="TextureRect" parent="."]
+offset_left = 259.0
+offset_top = 438.0
+offset_right = 387.0
+offset_bottom = 566.0
+texture = ExtResource("1_7r1rm")
+
+[node name="TextureRect352" type="TextureRect" parent="."]
+offset_left = 556.0
+offset_top = 432.0
+offset_right = 684.0
+offset_bottom = 560.0
+texture = ExtResource("1_7r1rm")
+
+[node name="TextureRect353" type="TextureRect" parent="."]
+offset_right = 40.0
+offset_bottom = 40.0
+texture = ExtResource("1_7r1rm")
+
+[node name="TextureRect354" type="TextureRect" parent="."]
+offset_left = 244.0
+offset_top = -2.0
+offset_right = 372.0
+offset_bottom = 126.0
+texture = ExtResource("1_7r1rm")
+
+[node name="TextureRect355" type="TextureRect" parent="."]
+offset_left = 219.0
+offset_top = 217.0
+offset_right = 347.0
+offset_bottom = 345.0
+texture = ExtResource("1_7r1rm")
+
+[node name="TextureRect356" type="TextureRect" parent="."]
+offset_left = 683.0
+offset_top = 61.0
+offset_right = 811.0
+offset_bottom = 189.0
+texture = ExtResource("1_7r1rm")
+
+[node name="TextureRect357" type="TextureRect" parent="."]
+offset_left = 926.0
+offset_top = 337.0
+offset_right = 1054.0
+offset_bottom = 465.0
+texture = ExtResource("1_7r1rm")
+
+[node name="TextureRect358" type="TextureRect" parent="."]
+offset_left = 926.0
+offset_top = 337.0
+offset_right = 1054.0
+offset_bottom = 465.0
+texture = ExtResource("1_7r1rm")
+
+[node name="TextureRect359" type="TextureRect" parent="."]
+offset_left = 556.0
+offset_top = 432.0
+offset_right = 684.0
+offset_bottom = 560.0
+texture = ExtResource("1_7r1rm")
+
+[node name="TextureRect360" type="TextureRect" parent="."]
+offset_left = 519.0
+offset_top = 235.0
+offset_right = 647.0
+offset_bottom = 363.0
+texture = ExtResource("1_7r1rm")
+
+[node name="TextureRect361" type="TextureRect" parent="."]
+offset_left = 904.0
+offset_top = 99.0
+offset_right = 1032.0
+offset_bottom = 227.0
+texture = ExtResource("1_7r1rm")
+
+[node name="TextureRect362" type="TextureRect" parent="."]
+offset_left = 259.0
+offset_top = 438.0
+offset_right = 387.0
+offset_bottom = 566.0
+texture = ExtResource("1_7r1rm")
+
+[node name="TextureRect363" type="TextureRect" parent="."]
+offset_left = 556.0
+offset_top = 432.0
+offset_right = 684.0
+offset_bottom = 560.0
+texture = ExtResource("1_7r1rm")
+
+[node name="TextureRect364" type="TextureRect" parent="."]
+offset_right = 40.0
+offset_bottom = 40.0
+texture = ExtResource("1_7r1rm")
+
+[node name="TextureRect365" type="TextureRect" parent="."]
+offset_left = 244.0
+offset_top = -2.0
+offset_right = 372.0
+offset_bottom = 126.0
+texture = ExtResource("1_7r1rm")
+
+[node name="TextureRect366" type="TextureRect" parent="."]
+offset_left = 219.0
+offset_top = 217.0
+offset_right = 347.0
+offset_bottom = 345.0
+texture = ExtResource("1_7r1rm")
+
+[node name="TextureRect367" type="TextureRect" parent="."]
+offset_left = 683.0
+offset_top = 61.0
+offset_right = 811.0
+offset_bottom = 189.0
+texture = ExtResource("1_7r1rm")
+
+[node name="TextureRect368" type="TextureRect" parent="."]
+offset_left = 926.0
+offset_top = 337.0
+offset_right = 1054.0
+offset_bottom = 465.0
+texture = ExtResource("1_7r1rm")
+
+[node name="TextureRect369" type="TextureRect" parent="."]
+offset_left = 926.0
+offset_top = 337.0
+offset_right = 1054.0
+offset_bottom = 465.0
+texture = ExtResource("1_7r1rm")
+
+[node name="TextureRect370" type="TextureRect" parent="."]
+offset_left = 556.0
+offset_top = 432.0
+offset_right = 684.0
+offset_bottom = 560.0
+texture = ExtResource("1_7r1rm")
+
+[node name="TextureRect371" type="TextureRect" parent="."]
+offset_left = 519.0
+offset_top = 235.0
+offset_right = 647.0
+offset_bottom = 363.0
+texture = ExtResource("1_7r1rm")
+
+[node name="TextureRect372" type="TextureRect" parent="."]
+offset_left = 904.0
+offset_top = 99.0
+offset_right = 1032.0
+offset_bottom = 227.0
+texture = ExtResource("1_7r1rm")
+
+[node name="TextureRect373" type="TextureRect" parent="."]
+offset_left = 259.0
+offset_top = 438.0
+offset_right = 387.0
+offset_bottom = 566.0
+texture = ExtResource("1_7r1rm")
+
+[node name="TextureRect374" type="TextureRect" parent="."]
+offset_left = 556.0
+offset_top = 432.0
+offset_right = 684.0
+offset_bottom = 560.0
+texture = ExtResource("1_7r1rm")
+
+[node name="TextureRect375" type="TextureRect" parent="."]
+offset_right = 40.0
+offset_bottom = 40.0
+texture = ExtResource("1_7r1rm")
+
+[node name="TextureRect376" type="TextureRect" parent="."]
+offset_left = 244.0
+offset_top = -2.0
+offset_right = 372.0
+offset_bottom = 126.0
+texture = ExtResource("1_7r1rm")
+
+[node name="TextureRect377" type="TextureRect" parent="."]
+offset_left = 219.0
+offset_top = 217.0
+offset_right = 347.0
+offset_bottom = 345.0
+texture = ExtResource("1_7r1rm")
+
+[node name="TextureRect378" type="TextureRect" parent="."]
+offset_left = 683.0
+offset_top = 61.0
+offset_right = 811.0
+offset_bottom = 189.0
+texture = ExtResource("1_7r1rm")
+
+[node name="TextureRect379" type="TextureRect" parent="."]
+offset_left = 926.0
+offset_top = 337.0
+offset_right = 1054.0
+offset_bottom = 465.0
+texture = ExtResource("1_7r1rm")
+
+[node name="TextureRect380" type="TextureRect" parent="."]
+offset_left = 926.0
+offset_top = 337.0
+offset_right = 1054.0
+offset_bottom = 465.0
+texture = ExtResource("1_7r1rm")
+
+[node name="TextureRect381" type="TextureRect" parent="."]
+offset_left = 556.0
+offset_top = 432.0
+offset_right = 684.0
+offset_bottom = 560.0
+texture = ExtResource("1_7r1rm")
+
+[node name="TextureRect382" type="TextureRect" parent="."]
+offset_left = 519.0
+offset_top = 235.0
+offset_right = 647.0
+offset_bottom = 363.0
+texture = ExtResource("1_7r1rm")
+
+[node name="TextureRect383" type="TextureRect" parent="."]
+offset_left = 904.0
+offset_top = 99.0
+offset_right = 1032.0
+offset_bottom = 227.0
+texture = ExtResource("1_7r1rm")
+
+[node name="TextureRect384" type="TextureRect" parent="."]
+offset_left = 259.0
+offset_top = 438.0
+offset_right = 387.0
+offset_bottom = 566.0
+texture = ExtResource("1_7r1rm")
+
+[node name="TextureRect385" type="TextureRect" parent="."]
+offset_left = 556.0
+offset_top = 432.0
+offset_right = 684.0
+offset_bottom = 560.0
+texture = ExtResource("1_7r1rm")
+
+[node name="Label" type="Label" parent="."]
+offset_left = 421.0
+offset_top = 159.0
+offset_right = 484.0
+offset_bottom = 182.0
+text = "SCENE 2"

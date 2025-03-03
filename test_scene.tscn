@@ -1,0 +1,13 @@
+[gd_scene load_steps=2 format=3 uid="uid://b0gcfu1my10ms"]
+
+[ext_resource type="Script" path="res://test.gd" id="1_kcv6s"]
+
+[node name="TestScene" type="Node2D"]
+script = ExtResource("1_kcv6s")
+
+[node name="Label" type="Label" parent="."]
+offset_left = 244.0
+offset_top = 175.0
+offset_right = 307.0
+offset_bottom = 198.0
+text = "SCENE 1"

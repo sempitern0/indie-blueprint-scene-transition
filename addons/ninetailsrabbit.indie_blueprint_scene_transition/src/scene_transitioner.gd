@@ -47,6 +47,15 @@ func _ready() -> void:
 	transition_finished.connect(on_transition_finished)
 
 
+func add_transition_configuration(conf: IndieBlueprintSceneTransitionConfiguration) -> void:
+	if not transitions.has(conf):
+		transitions.append(conf)
+
+
+func remove_transition_configuration(conf: IndieBlueprintSceneTransitionConfiguration) -> void:
+	transitions.erase(conf)
+
+
 func transition_to(
 	scene: Variant,
 	in_transition_id: StringName = IndieBlueprintPremadeTransitions.ColorFade,

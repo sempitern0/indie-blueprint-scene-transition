@@ -8,5 +8,4 @@ class_name IndieBlueprintExampleLoadingScreen extends IndieBlueprintLoadingScree
 func _process(delta: float) -> void:
 	super._process(delta)
 	
-	print("value ", current_progress, current_progress_value)
 	progress_bar.value = current_progress_value

@@ -8,7 +8,7 @@ func _unhandled_input(event: InputEvent) -> void:
 			next_scene,
 			IndieBlueprintPremadeTransitions.Dissolve,
 			IndieBlueprintPremadeTransitions.Dissolve,
-			{ 	"in": {"texture": IndieBlueprintPremadeTransitions.Curtains, "duration": 1.0, "color": Color.BLACK},
-				"out": {"texture": IndieBlueprintPremadeTransitions.Curtains, "duration": 1.5, "color": Color.BLACK,}
+			{ 	"in": {"texture": IndieBlueprintPremadeTransitions.HorizontalPaintBrush, "duration": 1.0, "color": Color.BLACK},
+				"out": {"texture": IndieBlueprintPremadeTransitions.HorizontalPaintBrush, "duration": 1.5, "color": Color.BLACK,}
 			}
 		)

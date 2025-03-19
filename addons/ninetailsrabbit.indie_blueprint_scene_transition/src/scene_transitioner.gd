@@ -44,6 +44,8 @@ func _process(delta: float) -> void:
 		
 func _ready() -> void:
 	set_process(false)
+	process_mode = Node.PROCESS_MODE_ALWAYS
+	
 	transition_finished.connect(on_transition_finished)
 
 

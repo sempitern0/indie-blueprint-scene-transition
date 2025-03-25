@@ -1,8 +1,10 @@
-[gd_scene load_steps=2 format=3 uid="uid://dxerk6a2fvagj"]
+[gd_scene load_steps=3 format=3 uid="uid://dxerk6a2fvagj"]
 
 [ext_resource type="Texture2D" uid="uid://0cs6huaccbjf" path="res://icon.svg" id="1_7r1rm"]
+[ext_resource type="Script" uid="uid://co2y277mv8l2m" path="res://test_scenes/test_scene_2.gd" id="1_xc8iq"]
 
 [node name="TestScene2" type="Node2D"]
+script = ExtResource("1_xc8iq")
 
 [node name="TextureRect" type="TextureRect" parent="."]
 offset_right = 40.0

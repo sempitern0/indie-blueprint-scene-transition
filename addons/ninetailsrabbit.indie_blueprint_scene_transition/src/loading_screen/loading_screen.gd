@@ -29,12 +29,15 @@ var loading: bool = false:
 
 func _ready() -> void:
 	set_process(false)
+	
 	assert(_filepath_is_valid(next_scene_path), "The loading screen does not have a valid scene path or it's empty -> %s" % next_scene_path)
 	
-	var load_error: Error = ResourceLoader.load_threaded_request(next_scene_path, "", use_subthreads)
+	var load_error: Error = ResourceLoader.load_threaded_request(next_scene_path, "PackedScene", use_subthreads)
 	
 	if load_error != OK:
-		push_error("An error %s happened when trying to load the scene %s " % [error_string(load_error), next_scene_path])
+		push_error("IndieBlueprintLoadingScreen: An error %s happened when trying to load the scene %s " % [error_string(load_error), next_scene_path])
+		failed.emit(ResourceLoader.ThreadLoadStatus.THREAD_LOAD_FAILED)
+		loading = false
 		return
 		
 	loading = true
@@ -53,7 +56,7 @@ func _process(delta):
 					loading = false
 			ResourceLoader.THREAD_LOAD_IN_PROGRESS:
 				loading = true
-			[ResourceLoader.THREAD_LOAD_FAILED, ResourceLoader.THREAD_LOAD_INVALID_RESOURCE]:
+			ResourceLoader.THREAD_LOAD_FAILED, ResourceLoader.THREAD_LOAD_INVALID_RESOURCE:
 				push_error("IndieBlueprintLoadingScreen: The resource load failed with status %s " % scene_load_status)
 				loading = false
 				failed.emit(scene_load_status)

@@ -136,18 +136,30 @@ func apply() -> void:
 			canvas_layer.add_child(current_transition.transition_in.transition)
 			current_transition.transition_in.transition.transition_in(current_transition.transition_in.args)
 			await current_transition.transition_in.transition.in_transition_finished
+		
+		if ResourceLoader.exists(current_transition.loading_screen_path):
+			var loading_screen: IndieBlueprintLoadingScreen = load(current_transition.loading_screen_path).instantiate() as IndieBlueprintLoadingScreen
+			loading_screen.next_scene_path = current_transition.next_scene_path
+			loading_screen.use_subthreads = current_transition.use_subthreads
+	
+			canvas_layer.add_child(loading_screen)
+			loading_screen.finished.connect(on_loading_screen_finished.bind(loading_screen), CONNECT_ONE_SHOT)
+			loading_screen.failed.connect(on_loading_screen_failed, CONNECT_ONE_SHOT)
 			
-		var load_request_error: Error = ResourceLoader.load_threaded_request(
-			current_transition.next_scene_path, 
-			"PackedScene", 
-			current_transition.use_subthreads
-			)
-			
-		if load_request_error == OK:
-			call_deferred("set_process", true)
-		else:	
-			push_error("IndieBlueprintSceneTransitioner: An error %s happened when trying to load the scene %s " % [error_string(load_request_error), current_transition.next_scene_path])
-			current_transition = null
+			if current_transition.transition_in.transition:
+				current_transition.transition_in.transition.queue_free()
+		else:
+			var load_request_error: Error = ResourceLoader.load_threaded_request(
+				 current_transition.next_scene_path, 
+				"PackedScene", 
+				current_transition.use_subthreads
+				)
+				
+			if load_request_error == OK:
+				call_deferred("set_process", true)
+			else:	
+				push_error("IndieBlueprintSceneTransitioner: An error %s happened when trying to load the scene %s " % [error_string(load_request_error), current_transition.next_scene_path])
+				current_transition = null
 	else:
 		push_warning("IndieBlueprintSceneTransitioner: There is no current transition to apply, aborting...")
 		current_transition = null
@@ -183,15 +195,38 @@ func _get_load_status(progress: Array = []) -> ResourceLoader.ThreadLoadStatus:
 func on_scene_load_finished(transition: CurrentTransition) -> void:
 	if transition.transition_in.transition:
 		transition.transition_in.transition.queue_free()
-		
-	if transition.transition_out.transition:
+	
+	if not ResourceLoader.exists(transition.loading_screen_path) and transition.transition_out.transition:
 		canvas_layer.add_child(transition.transition_out.transition)
 		transition.transition_out.transition.transition_out(current_transition.transition_out.args)
 		await transition.transition_out.transition.out_transition_finished
 		transition.transition_out.transition.queue_free()
-		
-					
 
+
+func on_loading_screen_finished(next_scene: PackedScene, loading_screen: IndieBlueprintLoadingScreen) -> void:
+	loading_screen.queue_free()
+	get_tree().call_deferred("change_scene_to_packed", next_scene)
+	
+	if current_transition.transition_out.transition:
+		
+		canvas_layer.add_child(current_transition.transition_out.transition)
+		current_transition.transition_out.transition.transition_out(current_transition.transition_out.args)
+		await current_transition.transition_out.transition.out_transition_finished
+		current_transition.transition_out.transition.queue_free()
+		
+	current_transition = null
+	
+		
+
+
+func on_loading_screen_failed(error: ResourceLoader.ThreadLoadStatus) -> void:
+	if current_transition.transition_out.transition:
+		canvas_layer.add_child(current_transition.transition_out.transition)
+		current_transition.transition_out.transition.transition_out(current_transition.transition_out.args)
+		await current_transition.transition_out.transition.out_transition_finished
+		current_transition.transition_out.transition.queue_free()
+		
+	current_transition = null
 
 #func transition_to(
 	#scene: Variant,

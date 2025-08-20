@@ -8,15 +8,5 @@ func _unhandled_input(_event: InputEvent) -> void:
 			.use_subthreads(true)\
 			.in_transition(&"color_fade")\
 			.out_transition(&"color_fade")\
+			#.with_loading_screen("res://test_scenes/example_loading_screen.tscn")\
 			.apply()
-
-		#
-		#IndieBlueprintSceneTransitioner.transition_to_with_loading_screen(
-			#"res://test_scenes/test_scene_2.tscn",
-			#"res://test_scenes/example_loading_screen.tscn",
-			#IndieBlueprintPremadeTransitions.Dissolve,
-			#IndieBlueprintPremadeTransitions.Dissolve,
-			#{ 	"in": {"texture": IndieBlueprintPremadeTransitions.VerticalPaintBrush, "duration": 1.0, "color": Color.BLACK},
-				#"out": {"texture": IndieBlueprintPremadeTransitions.VerticalPaintBrush, "duration": 1.5, "color": Color.BLACK,}
-			#}
-		#)

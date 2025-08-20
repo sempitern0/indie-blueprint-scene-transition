@@ -6,6 +6,7 @@ signal load_finished(transition: CurrentTransition)
 
 class CurrentTransition extends RefCounted:
 	var next_scene_path: String
+	var loading_screen_path: String
 	var use_subthreads: bool = false
 	var loaded: bool = false
 	var locked: bool = false
@@ -32,6 +33,7 @@ var current_transition: CurrentTransition:
 		
 		if current_transition == null:
 			set_process(false)
+
 
 func _ready() -> void:
 	set_process(false)
@@ -111,6 +113,15 @@ func out_transition(transition_id: StringName, args: Dictionary = {}) -> SceneTr
 		current_transition.transition_out["args"] = args
 		
 	return self
+
+
+func with_loading_screen(loading_screen_path: String) -> SceneTransitioner:
+	if current_transition == null:
+		current_transition = CurrentTransition.new()
+		
+	current_transition.loading_screen_path = loading_screen_path
+
+	return self
 	
 	
 func apply() -> void:
@@ -136,16 +147,12 @@ func apply() -> void:
 			call_deferred("set_process", true)
 		else:	
 			push_error("IndieBlueprintSceneTransitioner: An error %s happened when trying to load the scene %s " % [error_string(load_request_error), current_transition.next_scene_path])
-			set_process(false)
+			current_transition = null
 	else:
 		push_warning("IndieBlueprintSceneTransitioner: There is no current transition to apply, aborting...")
-		set_process(false)
+		current_transition = null
 
 
-func _get_load_status(progress: Array = []) -> ResourceLoader.ThreadLoadStatus:
-	return ResourceLoader.load_threaded_get_status(current_transition.next_scene_path, progress)
-	
-	
 func get_transition_by_id(id: StringName) -> IndieBlueprintSceneTransitionConfiguration:
 	if id.is_empty():
 		return null
@@ -158,7 +165,20 @@ func get_transition_by_id(id: StringName) -> IndieBlueprintSceneTransitionConfig
 		return null
 		
 	return found_transitions.front()
+	
+	
+func add_transition_configuration(conf: IndieBlueprintSceneTransitionConfiguration) -> void:
+	if not transitions.has(conf):
+		transitions.append(conf)
 
+
+func remove_transition_configuration(conf: IndieBlueprintSceneTransitionConfiguration) -> void:
+	transitions.erase(conf)
+
+
+func _get_load_status(progress: Array = []) -> ResourceLoader.ThreadLoadStatus:
+	return ResourceLoader.load_threaded_get_status(current_transition.next_scene_path, progress)
+	
 
 func on_scene_load_finished(transition: CurrentTransition) -> void:
 	if transition.transition_in.transition:
@@ -168,17 +188,11 @@ func on_scene_load_finished(transition: CurrentTransition) -> void:
 		canvas_layer.add_child(transition.transition_out.transition)
 		transition.transition_out.transition.transition_out(current_transition.transition_out.args)
 		await transition.transition_out.transition.out_transition_finished
+		transition.transition_out.transition.queue_free()
+		
 					
 
-#func add_transition_configuration(conf: IndieBlueprintSceneTransitionConfiguration) -> void:
-	#if not transitions.has(conf):
-		#transitions.append(conf)
-#
-#
-#func remove_transition_configuration(conf: IndieBlueprintSceneTransitionConfiguration) -> void:
-	#transitions.erase(conf)
-#
-#
+
 #func transition_to(
 	#scene: Variant,
 	#in_transition_id: StringName = IndieBlueprintPremadeTransitions.ColorFade,
@@ -293,39 +307,8 @@ func on_scene_load_finished(transition: CurrentTransition) -> void:
 		#
 		#current_transition.transition_in(args)
 		#
-#
-#func _change_to_loaded_scene(next_scene: String = next_scene_path) -> void:
-	#load_finished.emit(next_scene)
-	#get_tree().call_deferred("change_scene_to_packed", ResourceLoader.load_threaded_get(next_scene))
-#
-#
-#func _get_scene_path(scene: Variant) -> String:
-	#if scene is PackedScene:
-		#return scenes_references_paths.get_or_add(scene, scene.resource_path)
-	#elif typeof(scene) == TYPE_STRING_NAME or typeof(scene) == TYPE_STRING:
-		#return scene
-	#else:
-		#push_error("IndieBlueprintSceneTransitioner: The scene parameter needs to be a PackedScene or String, aborting scene transition...")
-		#load_finished.emit(next_scene_path)
-	#
-	#return ""
-#
-#
 
 
-
-#
-#func _remove_current_transition() -> void:
-	#if current_transition and not current_transition.is_queued_for_deletion():
-		#current_transition.queue_free()
-	#
-	#current_transition = null
-#
-#
-#func _filepath_is_valid(path: String) -> bool:
-	#return not path.is_empty() and path.is_absolute_path() and ResourceLoader.exists(path)
-#
-#
 ##region Signal callbacks
 #func on_in_transition_finished(in_transition_id: StringName, out_transition_id: StringName, args: Dictionary) -> void:
 	#var load_error: Error = ResourceLoader.load_threaded_request(next_scene_path, "", use_subthreads)

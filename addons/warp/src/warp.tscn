@@ -1,0 +1,13 @@
+[gd_scene load_steps=6 format=3 uid="uid://cx6pdxa5atxe8"]
+
+[ext_resource type="Script" uid="uid://fh3nrimvmaxq" path="res://addons/warp/src/warp.gd" id="1_m0w7n"]
+[ext_resource type="Script" uid="uid://bxoxn3wvcxabl" path="res://addons/warp/src/transitions/configuration/scene_transition_configuration.gd" id="2_xmtxj"]
+[ext_resource type="Resource" uid="uid://c3x0a0amt7xbb" path="res://addons/warp/src/transitions/color_fade/color_fade_transition.tres" id="3_wctn3"]
+[ext_resource type="Resource" uid="uid://d0s7ntjjacsso" path="res://addons/warp/src/transitions/voronoi/voronoi_transition.tres" id="4_ct8mr"]
+[ext_resource type="Resource" uid="uid://dr8yjgntslopu" path="res://addons/warp/src/transitions/dissolve/dissolve_transition.tres" id="5_ueynk"]
+
+[node name="WarpTransitioner" type="Node"]
+script = ExtResource("1_m0w7n")
+transitions = Array[ExtResource("2_xmtxj")]([ExtResource("3_wctn3"), ExtResource("4_ct8mr"), ExtResource("5_ueynk"), null])
+
+[node name="CanvasLayer" type="CanvasLayer" parent="."]

@@ -1,4 +1,4 @@
-class_name IndieBlueprintExampleLoadingScreen extends IndieBlueprintLoadingScreen
+class_name IndieBlueprintExampleLoadingScreen extends WarpLoadingScreen
 
 
 @onready var color_rect: ColorRect = $ColorRect

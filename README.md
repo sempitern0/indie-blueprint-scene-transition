@@ -1,15 +1,15 @@
 <div align="center">
 	<img src="icon.svg" alt="Logo" width="160" height="160">
 
-<h3 align="center">Indie Blueprint Scene Transition</h3>
+<h3 align="center">Warp</h3>
 
   <p align="center">
   	This scene transitioner implifies scene switching in your Godot project, adding polish and visual flair to your game's level changes
 	<br />
 	·
-	<a href="https://github.com/ninetailsrabbit/indie-blueprint-scene-transition/issues/new?assignees=ninetailsrabbit&labels=%F0%9F%90%9B+bug&projects=&template=bug_report.md&title=">Report Bug</a>
+	<a href="https://github.com/sempitern0/warp/issues/new?assignees=sempitern0&labels=%F0%9F%90%9B+bug&projects=&template=bug_report.md&title=">Report Bug</a>
 	·
-	<a href="https://github.com/ninetailsrabbit/indie-blueprint-scene-transition/issues/new?assignees=ninetailsrabbit&labels=%E2%AD%90+feature&projects=&template=feature_request.md&title=">Request Features</a>
+	<a href="https://github.com/sempitern0/warp/issues/new?assignees=sempitern0&labels=%E2%AD%90+feature&projects=&template=feature_request.md&title=">Request Features</a>
   </p>
 </div>
 
@@ -19,45 +19,45 @@
 - [Installation 📦](#installation-)
 - [Features ✨](#features-)
 - [How to use 📜](#how-to-use-)
-  - [Premade transitions 🎭](#premade-transitions-)
-    - [Fade](#fade)
-    - [Voronoi](#voronoi)
-    - [Dissolve](#dissolve)
-      - [Blurry noise](#blurry-noise)
-      - [Cell noise](#cell-noise)
-      - [Circle inverted](#circle-inverted)
-      - [Circle](#circle)
-      - [Conical](#conical)
-      - [Curtains](#curtains)
-      - [Horizontal paint brush](#horizontal-paint-brush)
-      - [Vertical paint brush](#vertical-paint-brush)
-      - [Noise pixelated](#noise-pixelated)
-      - [Normal Noise](#normal-noise)
-      - [Scribbles](#scribbles)
-      - [Square](#square)
-      - [Squares](#squares)
-      - [Swirl](#swirl)
-      - [Tile reveal](#tile-reveal)
-      - [Wipe down](#wipe-down)
-      - [Wipe up](#wipe-up)
-      - [Wipe left](#wipe-left)
-      - [Wipe right](#wipe-right)
-  - [Transition to scene 📽️](#transition-to-scene-️)
-  - [Transition to scene with loading screen 🎬](#transition-to-scene-with-loading-screen-)
-    - [Create your loading screen](#create-your-loading-screen)
+	- [Premade transitions 🎭](#premade-transitions-)
+		- [Fade](#fade)
+		- [Voronoi](#voronoi)
+		- [Dissolve](#dissolve)
+			- [Blurry noise](#blurry-noise)
+			- [Cell noise](#cell-noise)
+			- [Circle inverted](#circle-inverted)
+			- [Circle](#circle)
+			- [Conical](#conical)
+			- [Curtains](#curtains)
+			- [Horizontal paint brush](#horizontal-paint-brush)
+			- [Vertical paint brush](#vertical-paint-brush)
+			- [Noise pixelated](#noise-pixelated)
+			- [Normal Noise](#normal-noise)
+			- [Scribbles](#scribbles)
+			- [Square](#square)
+			- [Squares](#squares)
+			- [Swirl](#swirl)
+			- [Tile reveal](#tile-reveal)
+			- [Wipe down](#wipe-down)
+			- [Wipe up](#wipe-up)
+			- [Wipe left](#wipe-left)
+			- [Wipe right](#wipe-right)
+	- [Transition to scene 📽️](#transition-to-scene-️)
+	- [Transition to scene with loading screen 🎬](#transition-to-scene-with-loading-screen-)
+		- [Create your loading screen](#create-your-loading-screen)
 - [Create your own transitions ⚒️](#create-your-own-transitions-️)
-  - [Add your configuration](#add-your-configuration)
-    - [The IndieBlueprintSceneTransitionConfiguration Resource](#the-indieblueprintscenetransitionconfiguration-resource)
-    - [The IndieBlueprintSceneTransition Class](#the-indieblueprintscenetransition-class)
+	- [Add your configuration](#add-your-configuration)
+		- [The IndieBlueprintSceneTransitionConfiguration Resource](#the-indieblueprintscenetransitionconfiguration-resource)
+		- [The IndieBlueprintSceneTransition Class](#the-indieblueprintscenetransition-class)
 
 # Installation 📦
 
-1. [Download Latest Release](https://github.com/ninetailsrabbit/indie-blueprint-scene-transition/releases/latest)
-2. Unpack the `addons/indie-blueprint-scene-transition` folder into your `/addons` folder within the Godot project
+1. [Download Latest Release](https://github.com/sempitern0/warp/releases/latest)
+2. Unpack the `addons/warp` folder into your `/addons` folder within the Godot project
 3. Enable this addon within the Godot settings: `Project > Project Settings > Plugins`
 
 To better understand what branch to choose from for which Godot version, please refer to this table:
-|Godot Version|indie-blueprint-scene-transition Branch|indie-blueprint-scene-transition Version|
+|Godot Version|warp Branch|warp Version|
 |---|---|--|
 |[![GodotEngine](https://img.shields.io/badge/Godot_4.3.x_stable-blue?logo=godotengine&logoColor=white)](https://godotengine.org/)|`4.3`|`1.x`|
 |[![GodotEngine](https://img.shields.io/badge/Godot_4.4.x_stable-blue?logo=godotengine&logoColor=white)](https://godotengine.org/)|`main`|`1.x`|
@@ -92,43 +92,43 @@ const Voronoi: StringName = &"voronoi"
 const Dissolve: StringName = &"dissolve"
 
 
-const BlurryNoise: CompressedTexture2D = preload("res://addons/ninetailsrabbit.indie_blueprint_scene_transition/src/transitions/dissolve/textures/blurry-noise.png")
+const BlurryNoise: CompressedTexture2D = preload("res://addons/sempitern0.indie_blueprint_scene_transition/src/transitions/dissolve/textures/blurry-noise.png")
 
-const CellNoise: CompressedTexture2D = preload("res://addons/ninetailsrabbit.indie_blueprint_scene_transition/src/transitions/dissolve/textures/cell-noise.png")
+const CellNoise: CompressedTexture2D = preload("res://addons/sempitern0.indie_blueprint_scene_transition/src/transitions/dissolve/textures/cell-noise.png")
 
-const CircleInverted: CompressedTexture2D = preload("res://addons/ninetailsrabbit.indie_blueprint_scene_transition/src/transitions/dissolve/textures/circle-inverted.png")
+const CircleInverted: CompressedTexture2D = preload("res://addons/sempitern0.indie_blueprint_scene_transition/src/transitions/dissolve/textures/circle-inverted.png")
 
-const Circle: CompressedTexture2D = preload("res://addons/ninetailsrabbit.indie_blueprint_scene_transition/src/transitions/dissolve/textures/circle.png")
+const Circle: CompressedTexture2D = preload("res://addons/sempitern0.indie_blueprint_scene_transition/src/transitions/dissolve/textures/circle.png")
 
-const Conical: CompressedTexture2D = preload("res://addons/ninetailsrabbit.indie_blueprint_scene_transition/src/transitions/dissolve/textures/conical.png")
+const Conical: CompressedTexture2D = preload("res://addons/sempitern0.indie_blueprint_scene_transition/src/transitions/dissolve/textures/conical.png")
 
-const Curtains: CompressedTexture2D = preload("res://addons/ninetailsrabbit.indie_blueprint_scene_transition/src/transitions/dissolve/textures/curtains.png")
+const Curtains: CompressedTexture2D = preload("res://addons/sempitern0.indie_blueprint_scene_transition/src/transitions/dissolve/textures/curtains.png")
 
-const HorizontalPaintBrush: CompressedTexture2D = preload("res://addons/ninetailsrabbit.indie_blueprint_scene_transition/src/transitions/dissolve/textures/horiz_paint_brush.png")
+const HorizontalPaintBrush: CompressedTexture2D = preload("res://addons/sempitern0.indie_blueprint_scene_transition/src/transitions/dissolve/textures/horiz_paint_brush.png")
 
-const NoisePixelated: CompressedTexture2D = preload("res://addons/ninetailsrabbit.indie_blueprint_scene_transition/src/transitions/dissolve/textures/noise-pixelated.png")
+const NoisePixelated: CompressedTexture2D = preload("res://addons/sempitern0.indie_blueprint_scene_transition/src/transitions/dissolve/textures/noise-pixelated.png")
 
-const NormalNoise: CompressedTexture2D = preload("res://addons/ninetailsrabbit.indie_blueprint_scene_transition/src/transitions/dissolve/textures/noise.png")
+const NormalNoise: CompressedTexture2D = preload("res://addons/sempitern0.indie_blueprint_scene_transition/src/transitions/dissolve/textures/noise.png")
 
-const Scribbles: CompressedTexture2D = preload("res://addons/ninetailsrabbit.indie_blueprint_scene_transition/src/transitions/dissolve/textures/scribbles.png")
+const Scribbles: CompressedTexture2D = preload("res://addons/sempitern0.indie_blueprint_scene_transition/src/transitions/dissolve/textures/scribbles.png")
 
-const Square: CompressedTexture2D = preload("res://addons/ninetailsrabbit.indie_blueprint_scene_transition/src/transitions/dissolve/textures/square.png")
+const Square: CompressedTexture2D = preload("res://addons/sempitern0.indie_blueprint_scene_transition/src/transitions/dissolve/textures/square.png")
 
-const Squares: CompressedTexture2D = preload("res://addons/ninetailsrabbit.indie_blueprint_scene_transition/src/transitions/dissolve/textures/squares.png")
+const Squares: CompressedTexture2D = preload("res://addons/sempitern0.indie_blueprint_scene_transition/src/transitions/dissolve/textures/squares.png")
 
-const Swirl: CompressedTexture2D = preload("res://addons/ninetailsrabbit.indie_blueprint_scene_transition/src/transitions/dissolve/textures/swirl.png")
+const Swirl: CompressedTexture2D = preload("res://addons/sempitern0.indie_blueprint_scene_transition/src/transitions/dissolve/textures/swirl.png")
 
-const TileReveal: CompressedTexture2D = preload("res://addons/ninetailsrabbit.indie_blueprint_scene_transition/src/transitions/dissolve/textures/tile_reveal.png")
+const TileReveal: CompressedTexture2D = preload("res://addons/sempitern0.indie_blueprint_scene_transition/src/transitions/dissolve/textures/tile_reveal.png")
 
-const VerticalPaintBrush: CompressedTexture2D = preload("res://addons/ninetailsrabbit.indie_blueprint_scene_transition/src/transitions/dissolve/textures/vertical_paint_brush.png")
+const VerticalPaintBrush: CompressedTexture2D = preload("res://addons/sempitern0.indie_blueprint_scene_transition/src/transitions/dissolve/textures/vertical_paint_brush.png")
 
-const WipeDown: CompressedTexture2D = preload("res://addons/ninetailsrabbit.indie_blueprint_scene_transition/src/transitions/dissolve/textures/wipe-down.png")
+const WipeDown: CompressedTexture2D = preload("res://addons/sempitern0.indie_blueprint_scene_transition/src/transitions/dissolve/textures/wipe-down.png")
 
-const WipeLeft: CompressedTexture2D = preload("res://addons/ninetailsrabbit.indie_blueprint_scene_transition/src/transitions/dissolve/textures/wipe-left.png")
+const WipeLeft: CompressedTexture2D = preload("res://addons/sempitern0.indie_blueprint_scene_transition/src/transitions/dissolve/textures/wipe-left.png")
 
-const WipeRight: CompressedTexture2D = preload("res://addons/ninetailsrabbit.indie_blueprint_scene_transition/src/transitions/dissolve/textures/wipe-right.png")
+const WipeRight: CompressedTexture2D = preload("res://addons/sempitern0.indie_blueprint_scene_transition/src/transitions/dissolve/textures/wipe-right.png")
 
-const WipeUp: CompressedTexture2D = preload("res://addons/ninetailsrabbit.indie_blueprint_scene_transition/src/transitions/dissolve/textures/wipe-up.png")
+const WipeUp: CompressedTexture2D = preload("res://addons/sempitern0.indie_blueprint_scene_transition/src/transitions/dissolve/textures/wipe-up.png")
 ```
 
 ### Fade
@@ -351,7 +351,7 @@ Thanks to a simple API, creating a transition is as easy as:
 - Create and attaching a script that extends `IndieBlueprintSceneTransition` to this scene
 - Developing your own logic on the overridable functions `transition_in` and `transition_out`
 - Create an `IndieBlueprintSceneTransitionConfiguration` resource and assigning a unique identifier and the new scene of your custom transition
-- Add this resource to the exportable transitions parameter of the scene `res://addons/ninetailsrabbit.indie_blueprint_scene_transition/src/scene_transitioner.tscn`
+- Add this resource to the exportable transitions parameter of the scene `res://addons/sempitern0.indie_blueprint_scene_transition/src/scene_transitioner.tscn`
 
 You can take a look at the transitions already made in this plugin to see how to create your own. Since it's a custom scene, you can add the nodes that are necessary, providing unlimited flexibility.
 
